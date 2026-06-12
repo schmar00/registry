@@ -1,0 +1,303 @@
+
+.progress {
+    background-color: #fff;
+    justify-content: center;
+    height: 2rem;
+}
+
+h1 {
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+.py-6 {
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+}
+
+a {
+    color: #295471;
+}
+
+a:not(span a) {
+    text-decoration: none;
+    border-bottom: 1px dotted #295471;
+    
+}
+
+a:hover:not(.nav-link):not(.navbar-brand) {
+    /* border-bottom: 3px solid red; */
+    background-color: rgba(211, 211, 211, 0.485);  
+    /* border-bottom: 5px solid rgb(210, 1, 1);  */
+} 
+
+.downscaled-svg {
+  width: 18px; /* Adjust to desired size */
+  height: 18px;
+}
+
+.blue-svg {
+  filter: invert(21%) sepia(91%) saturate(1487%) hue-rotate(193deg) brightness(89%) contrast(96%);
+}
+
+.grey-svg {
+  filter: invert(50%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
+}
+
+#uriBtn:hover:before {
+    content:"copy ";
+}
+
+.dropdown-item:hover {
+    background-color: rgb(166, 165, 165) !important;
+    color: white !important;
+}
+
+#allConcepts {
+    min-height: 380px;
+}
+
+.cardHeaderRight {
+    /*right, left buttons*/
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+}
+
+#allConceptsHeader {
+    padding-right: 5rem;
+}
+
+.card-body:not(#searchCard) {
+    font-size: small;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+@media screen and (min-width: 1000px) {
+    #title {
+        font-size: 3vw;
+    }
+}
+
+#title {
+    font-family: 'Bebas Neue';
+    font-size: 4rem;
+}
+
+#dropdown {
+    background-color: white;
+    min-width: 200px;
+    position: relative;
+    z-index: 999;
+}
+
+#dropdown a {
+    color: black;
+}
+
+#dropdown td {
+    padding: 0px 0px;
+}
+
+.searchLink {
+    color: black;
+    cursor: pointer;
+}
+
+.searchPropTyp {
+    color: #999;
+    font-weight: 700;
+}
+
+ul.altLabel,
+ul.notation {
+    list-style-position: inside;
+    display: inline-block;
+    padding: 0;
+    margin-bottom: -0.2rem;
+}
+
+ul.altLabel li,
+ul.notation li {
+    display: inline;
+    float: left;
+    padding-right: 15px;
+}
+
+
+
+.skosRel {
+    background: #eee;
+    width: 120px;
+    text-align: center;
+    border: 3px solid white;
+}
+
+.skosRel-1 {
+    background: lightgray;
+    width: 120px;
+    text-align: center;
+    border: 3px solid white;
+}
+
+.skosRelUl {
+    padding: 0.5rem 0rem 0rem 1rem;
+}
+
+.datatype {
+    display: inline-block;
+    padding: 2px;
+    font-size: 60%;
+    border-radius: 2px;
+    color: white;
+    background: #444;
+}
+
+.lang {
+    display: inline-block;
+    padding: 0px 2px;
+    font-size: 60%;
+    font-weight: 600;
+    border-radius: 2px;
+    color: white;
+    background: #444;
+}
+
+.propTech {
+    padding-right: 5px;
+}
+
+#details th {
+    text-align: left;
+    padding-top: 0.3rem;
+}
+
+#details td {
+    vertical-align: middle;
+    padding-bottom: 0.7rem;
+}
+
+#details ul {
+    margin-bottom: 0rem;
+}
+
+.tooltip-inner {
+    text-align: left;
+    background-color: #27292b;
+}
+
+.plusSign {
+    color: gray;
+    font-size: 60%;
+}
+
+.card-header a {
+    color: white;
+}
+
+.editorLink {
+    color: rgb(199, 3, 3);
+}
+
+
+
+#searchCard {
+    padding-top: 8px !important;
+
+}
+
+/* GO #94c425 #444444 */
+
+.allConceptsCards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 4px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    width: 100%;
+}
+
+    .allConceptsCards div {
+        background-color: #ffffff;
+        border-radius: 8px;
+        padding: 0px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        text-align: center;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+        .allConceptsCards div:hover {
+            transform: translateY(-3px) scale(1.02);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .allConceptsCards div h3 {
+            margin-top: 0;
+            color: #333;
+        }
+
+        .allConceptsCards div a {
+            color: rgb(5, 46, 55) !important;
+            padding: 5px;
+            font-size: 0.8rem;
+            text-decoration: none;
+            border-bottom: none !important;
+            width: 100%;
+            line-clamp: 3;
+            -webkit-line-clamp: 3;
+        }
+
+#reg-table_pagination .page-item.disabled .page-link {
+    color: #495057;
+}
+
+#codelist_pagination .page-item.disabled .page-link {
+    color: #495057;
+}
+
+.data-provider-tabs .nav-link {
+    color: #6c757d;
+}
+
+.data-provider-tabs .nav-link.active {
+    color: #000;
+}
+ 
+summary {
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    color: rgb(117,117,117);
+    cursor: pointer;
+      display: flex;
+      align-items: center;
+}
+
+.caret {
+      margin-right: 8px;
+      transition: transform 0.2s;
+    }
+
+    details[open] .caret {
+      transform: rotate(90deg); /* Rotate caret when open */
+    }
+
+div.scroll-box {
+  max-height: 310px;     /* set the maximum height */
+  overflow-y: auto;      /* enables vertical scrolling when content exceeds max height */
+  /* overflow-x: hidden;   
+  border: 1px solid #ccc; 
+  padding: 10px;          */
+}

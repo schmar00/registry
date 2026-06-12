@@ -1,0 +1,43 @@
+URI|Notation|Label|Parent|Beschreibung|Anmerkung|Applikationsschema|Thema|Status
+https://registry.inspire.gv.at/dataprovider/0011|11|ASFINAG Autobahnen- und Schnellstraßen-Finanzierungs-Aktiengesellschaft||Rotenturmstraße 5-9, 1011 Wien||||http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0095|95|Agrarmarkt Austria||Dresdner Straße 70, 1200 Wien||||http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0115|115|Austrian Power Grid AG||Wagramer Straße 19, 1220 Wien||||http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0012|12|Austro Control||Wagramer Straße 19, 1220 Wien||||http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0002|2|Bundesamt für Eich- und Vermessungswesen||Schiffamtsgasse 1-3, 1020 Wien||||http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0006|6|Bundesforschungs- und Ausbildungszentrum für Wald, Naturgefahren und Landschaft||Seckendorff-Gudent-Weg 8, 1131 Wien||||http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0043|43|Bundeskanzleramt Österreich||Ballhausplatz 2, 1010 Wien||||http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0056|56|Bundesministerium für Bildung, Wissenschaft und Forschung||Minoritenplatz 5, 1010 Wien||||http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0051|51|Bundesministerium für Digitalisierung und Wirtschaftsstandort||Stubenring 1, 1011 Wien||||http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0003|3|Bundesministerium für Finanzen||Johannesgasse 5, 1010 Wien||||http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0010|10|Bundesministerium für Klimaschutz, Umwelt, Energie, Mobilität, Innovation und Technologie||Radetzkystraße 2, 1030 Wien||||http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0005|5|Bundesministerium für Land- und Forstwirtschaft, Regionen und Wasserwirtschaft||Stubenring 1, 1010 Wien||||http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0049|49|Bundesministerium für Landesverteidigung||Roßauer Lände 1, 1090 Wien||||http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0130|130|Energienetze Steiermark GmbH||Leonhardgürtel 10, 8010 Graz||||http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0090|90|Federal Institute of Agricultural Economics||Dietrichgasse 27, 1030 Wien||||http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0009|9|Forsttechnischer Dienst für Wildbach- und Lawinenverbauung||Marxergasse 2, 1030 Wien||||http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0015|15|Geologische Bundesanstalt||Neulinggasse 38, 1030 Wien||||http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0068|68|KNG-Kärnten Netz GmbH||Arnulfplatz 2, 9020 Klagenfurt||||http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0018|18|Land Burgenland - Amt der Burgenländischen Landesregierung||Europaplatz 1, 7000 Eisenstadt||||http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0019|19|Land Kärnten - Amt der Kärntner Landesregierung||Flatschacherstraße 70, 9020 Klagenfurt||||http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0046|46|Land Niederösterreich - Amt der NÖ Landesregierung||Landhausplatz 1, 3109 St. Pölten||||http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0021|21|Land Oberösterreich - Amt der OÖ Landesregierung||Bahnhofplatz 1, 4021 Linz||||http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0022|22|Land Salzburg - Amt der Salzburger Landesregierung||Chiemseehof, 5010 Salzburg||||http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0023|23|Land Steiermark - Amt der Steiermärkischen Landesregierung||Landhausg. 7, 8010 Graz||||http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0024|24|Land Tirol - Amt der Tiroler Landesregierung||Eduard-Wallnöfer-Platz 3, 6020 Innsbruck||||http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0025|25|Land Vorarlberg - Amt der Vorarlberger Landesregierung||Johannitergasse 6, 6800 Feldkirch||||http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0052|52|Land Wien - Amt der Wiener Landesregierung||Rathaus, 1082 Wien||||http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0061|61|Land-, forst- und wasserwirtschaftliches Rechenzentrum GmbH||Hintere Zollamtsstraße 4, 1030 Wien||||http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0064|64|Netz Burgenland GmbH||Kasernenstraße 9, 7000 Eisenstadt||||http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0067|67|Netz Niederösterreich GmbH||EVN Platz 1, 2344 Maria Enzersdorf||||http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0065|65|Netz Oberösterreich GmbH||Neubauzeile 99, 4030 Linz||||http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0033|33|Salzburg AG für Energie, Verkehr & Telekommunikation||Bayerhamerstraße 16, 5020 Salzburg||||http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0027|27|Statistik Austria||Guglgasse 13, 1110 Wien||||http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0078|78|TINETZ-Tiroler Netze GmbH||Bert-Köllensperger-Str. 7, 6065 Thaur||||http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0008|8|Umweltbundesamt GmbH||Spittelauer Lände 5, 1090 Wien||||http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0080|80|VERBUND Hydro Power GmbH||Europaplatz 2, 1150 Wien||||http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0111|111|Vorarlberger Energienetze GmbH||Weidachstraße 6, 6900 Bregenz||||http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0038|38|Zentralanstalt für Meteorologie und Geodynamik||Hohe Warte 38, 1190 Wien||||http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0014|14|via donau - Österreichische Wasserstraßen-Gesellschaft mbH||Donau-City-Straße 1, 1220 Wien||||http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0013|13|ÖBB-Infrastruktur AG||Praterstern 3, 1020 Wien||||http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0001|1|Österreichische Agentur für Gesundheit und Ernährungssicherheit GmbH||Spargelfeldstr. 191, 1220 Wien||||http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0131|131|Österreichisches Institut für Verkehrsdateninfrastruktur||Bahnhofplatz 5, 9020 Klagenfurt||||http://inspire.ec.europa.eu/registry/status/valid

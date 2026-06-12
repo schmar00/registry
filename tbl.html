@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Codelist items</title>
+    <script src="js/pv_config.js"></script>
+</head>
+
+<body>
+    <div id="heading"></div>
+    <div id="table"></div>
+
+    <script>
+        function escapeHtml(value){
+            return String(value ?? '')
+                .replace(/&/g, '&amp;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;')
+                .replace(/"/g, '&quot;')
+                .replace(/'/g, '&#39;');
+        }
+
+        function escapeAttr(value){
+            return escapeHtml(value).replace(/`/g, '&#96;');
+        }
+
+        function normalizeRegistryUri(raw){
+            if (typeof raw !== 'string' || raw.length === 0) return '';
+            let decoded = '';
+            try {
+                decoded = decodeURI(raw);
+            } catch (e) {
+                return '';
+            }
+            try {
+                const parsed = new URL(decoded);
+                if (parsed.protocol === 'https:' && parsed.hostname === 'registry.inspire.gv.at') {
+                    return parsed.href;
+                }
+            } catch (e) {
+                return '';
+            }
+            return '';
+        }
+
+        let query = `PREFIX skos:<http://www.w3.org/2004/02/skos/core#>
+        PREFIX dcterms:<http://purl.org/dc/terms/>
+        select distinct ?URI ?Label
+        (GROUP_CONCAT(distinct ?n; separator = '; ') as ?Notation)
+        (GROUP_CONCAT(distinct ?D; separator = '; ') as ?Definition)
+        (GROUP_CONCAT(distinct ?P; separator = '; ') as ?Parents)
+        (GROUP_CONCAT(distinct ?N; separator = '; ') as ?scopeNote)
+        (COALESCE(?Lskos, ?Ldcterms, strafter(str(<§>),'${DOMAIN}/')) as ?title)
+        where { GRAPH ?g {
+        {<§> skos:hasTopConcept ?tc . ?tc skos:narrower* ?URI }
+        UNION {<§> skos:narrower* ?URI }
+        ?URI skos:prefLabel ?Label filter(lang(?Label)="de")
+        optional {?URI skos:notation ?n}
+        optional {?URI skos:definition ?D filter(lang(?D)="de")}
+        optional {?URI skos:scopeNote ?N filter(lang(?N)="de")}
+        optional {?URI skos:broader ?o . ?o skos:prefLabel ?P filter(lang(?P)="de")}
+        optional {<§> skos:prefLabel ?Lskos filter(lang(?Lskos)="de")}
+        optional {<§> dcterms:title ?Ldcterms filter(lang(?Ldcterms)="de")}
+        }}
+        group by ?URI ?Label ?title ?Lskos ?Ldcterms
+        order by ?Label`;
+
+        let urlParams = new URLSearchParams(window.location.search);
+        let uri
+        if (urlParams.has('uri')) {
+            let raw = urlParams.get('uri');
+            uri = normalizeRegistryUri(raw);
+            htmlTable(query.replace(/§/g, uri));
+        }
+
+        //***********************HTML Table download***************************************
+
+        function htmlTable(qry){ 
+            fetch(`${ENDPOINT}?query=${encodeURIComponent(qry)}&format=json`)
+                    .then(res => res.json())
+                    .then(jsonData => {console.log(jsonData);
+                        let s = 'border: 1px solid black; border-collapse: collapse; word-wrap: break-all; padding:5px;';
+                        let rows = jsonData.head.vars.filter(e => e !== 'title'); console.log(rows);
+                        let tbl = `<table style="${s}" class="table table-hover">
+                                        <thead>
+                                        <tr style="${s}">
+                                            <th style="${s}">${rows.join(`</th><th style="${s}">`)}</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        ${jsonData.results.bindings
+                                            .map(a => `<tr style="${s}">` + 
+                                            rows.map(c => `<td style="${s}${c=='Definition'||c=='scopeNote'?'font-size:70%;':''}">${a[c]==undefined?'':createLink(a[c].value)}</td>`).join() + '</tr>').join()}
+                                        </tbody>
+                                    </table>`;
+                        document.getElementById('heading').innerHTML = `<h1>${escapeHtml(jsonData.results.bindings[0].title.value)}</h1><h3>URI: ${escapeHtml(uri)}</h3>`;
+                        document.getElementById('table').innerHTML = tbl.replace(/,/g,'');
+
+                    });
+        }
+
+        function createLink(txt){
+            if (txt.substring(0, 4) == 'http') {
+                try {
+                    const parsed = new URL(txt);
+                    if (parsed.protocol === 'http:' || parsed.protocol === 'https:') {
+                        const safeHref = parsed.href;
+                        return '<a href="' + escapeAttr(safeHref) + '">' + escapeHtml(safeHref) + '</a>';
+                    }
+                } catch (e) {
+                    return escapeHtml(txt);
+                }
+            }
+            return escapeHtml(txt);
+        }
+
+    </script>
+
+
+</body>
+
+</html>

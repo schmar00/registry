@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Registry Test</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon-reg.ico" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+
+    <script src="js/pv_config.js"></script>
+    <script src="js/fuse.min.js" charset="utf-8"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/pv.js"></script>
+    <script src="js/sortable-table.js"></script>
+</head>
+
+<body>
+    <!-- Responsive navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: rgba(243, 242, 242, 0.915);" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <img src="img/logo-1.png" alt="Registry logo" style="height:auto; max-height:50px; margin-right: 15px;">
+                <span class="navbar-brand">Austrian INSPIRE Registry</span>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto py-3 py-lg-0">
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-2" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-2" href="https://www.inspire.gv.at/assistenzstelle/registry.html">Registry</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-2" href="https://www.inspire.gv.at/assistenzstelle/registry/codelist-erweiterungen.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-2" href="mailto:service@bmluk.gv.at">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    
+
+    
+    <!-- Page content-->
+    <div class="container" style="margin-top: 100px;">
+        <div class="row">
+            <div id="pageContent" class="col-lg-8">
+
+            <!-- <div style="margin-top: 20px;">
+                <h1>Österreichisches Register für Codelisten</h1>
+                <p class="lead mb-0">INSPIRE Daten- &amp; Dienste Provider und Codelisten</p>
+            </div> -->
+                <!-- Page description -->
+                <div id="page_desc" style="margin-top: 10px; margin-bottom: 10px;"></div>
+                <!-- <hr> -->
+                <!-- Project descriptions -->
+                <div id="proj_desc">
+                    <div class="progress" style="height: 4px;">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" aria-label="Loading registry content" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div>
+                    </div>
+                </div>
+
+                <!-- other descriptions -->
+                <div id="other_desc"></div>
+                <br>
+
+                <div class="p-1 col-sm-12 sortable-table">
+                    <table class="table table-hover" id="reg-table"></table>
+                </div>
+
+
+            </div>
+
+            <!-- Side widgets-->
+            <div class="col-lg-4">
+                <!-- Search widget-->
+                <div class="card my-4 text-white mb-4" style="background-color: #295471; border-color: rgba(253, 252, 252, 0.284);">
+                    
+                    <div id="searchCard" class="card-body">
+                        <img src="assets/magnifying-glass-solid-full.svg" class="downscaled-svg" style="filter: invert(100%);" alt="search icon">
+                        <label for="searchInput" id="searchInputLabel" style="font-size: larger;">&nbsp;Search</label>
+                        <div id="searchGroup" class="input-group" style="margin-top: 10px;">
+                            <input id="searchInput" type="text" class="form-control" placeholder="Suche nach ...">
+                            <div style="position: absolute; top: 39px;">
+                                <table id="dropdown" class="table table-hover"></table>
+                            </div>
+                            <span class="input-group-btn"><button id="searchBtn" class="btn btn-light"
+                                    type="button">Go!</button></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Side Widgets -->
+                <div id="image_links"></div>
+                <!-- Side Widgets -->
+                <div id="data_providers" class="mb-4">
+                    <br>
+                    <!-- <div style="text-align: center;"><strong>Geodatenstellen</strong></div>
+                    <hr> -->
+                    <br><br>
+                    <div>
+                        <ul class="nav nav-tabs data-provider-tabs" role="tablist">
+                            <li id="dp-tab1" class="nav-item" role="presentation" style="width: 40%;">
+                                <a id="dp-link" class="nav-link active" data-bs-toggle="tab" href="#dp" role="tab" aria-controls="dp" aria-selected="true" style="width: 100%; text-align: center;"><small>Publisher</small></a>
+                            </li>
+                            <li id="dp-tab2" class="nav-item" role="presentation" style="width: 60%;">
+                                <a id="dp-all-link" class="nav-link" data-bs-toggle="tab" href="#dpAll" role="tab" aria-controls="dpAll" aria-selected="false" style="width: 100%; text-align: center;"><small><span id="tabheading-en">more Data Providers</span></small></a> <!-- weitere Geodatenstellen -->
+                            </li>
+                        </ul>
+                        <div id="data_provider_tabs" class="tab-content" style="padding-top: 10px; max-height: 800px; overflow-y: auto; border-left: 1px solid #ced4da; border-right: 1px solid #ced4da; border-bottom: 1px solid #ced4da; border-radius: 0 0 0.375rem 0.375rem; padding: 2rem;">
+                            <div class="tab-pane fade active show" id="dp" role="tabpanel" aria-labelledby="dp-link">
+                                <div id="data_provider_list" class=""></div>
+                            </div>
+                            <div class="tab-pane fade" id="dpAll" role="tabpanel" aria-labelledby="dp-all-link">
+                                <div id="data_provider_list_all" class=""></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div id="CodeList" class="col-lg-12"></div>
+    </div>
+    <!-- Footer-->
+    <footer class="py-6 bg-primary" style="margin-top: 100px; background-image: linear-gradient(60deg, #29323c 0%, #374b57 100%);">
+        <div class="container">
+            <div class="d-flex align-items-center">
+                <div class="me-3">
+                    <img src="img/logo-text.png" alt="Registry logo" style="height:auto; max-height:120px;">
+                </div>
+                <div class="flex-grow-1 text-center">
+                    <p class="m-0 text-white">&copy; <span id="currentYear"></span> inspire.gv.at - Alle Rechte vorbehalten | <a href="https://www.inspire.gv.at/impressum.html" class="text-white">Impressum</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        document.getElementById("currentYear").textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>
