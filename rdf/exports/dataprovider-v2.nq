@@ -1,456 +1,457 @@
-<https://registry.inspire.gv.at/dataprovider/0014> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0130> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.e-netze.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0064> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0135> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0133> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0056> <http://www.w3.org/2004/02/skos/core#notation> "0056" <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0023> <http://www.w3.org/2004/02/skos/core#notation> "0023" <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0065> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0051> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0134> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0068> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0022> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0078> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0038> <http://www.w3.org/2004/02/skos/core#notation> "0038" <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0012> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0133> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0027> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0135> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.sozialministerium.gv.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0015> <http://www.w3.org/2004/02/skos/core#prefLabel> "Geologische Bundesanstalt (GBA)"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0013> <http://www.w3.org/2004/02/skos/core#prefLabel> "ÖBB-Infrastruktur AG (ÖBB Infra)"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0135> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bundesministerium für Arbeit, Soziales, Gesundheit, Pflege und Konsumentenschutz"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0052> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0012> <http://www.w3.org/2004/02/skos/core#prefLabel> "Austro Control"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0043> <http://www.w3.org/2004/02/skos/core#notation> "0043" <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0095> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0115> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0111> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0015> <http://purl.org/linked-data/registry#successor> <https://registry.inspire.gv.at/dataprovider/0134> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0008> <http://purl.org/dc/terms/relation> <https://registry.inspire.gv.at/codelist/Biotoptypen_AT> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0130> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0078> <http://www.w3.org/2004/02/skos/core#notation> "0078" <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0015> <http://www.w3.org/2004/02/skos/core#notation> "0015" <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0012> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0011> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0018> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0002> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0001> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0130> <http://www.w3.org/2004/02/skos/core#notation> "0130" <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0046> <http://www.w3.org/2004/02/skos/core#prefLabel> "Land Niederösterreich / Amt der Niederösterreichischen Landesregierung"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0043> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0090> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bundesanstalt für Agrarwirtschaft und Bergbauernfragen (BAB)"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0095> <http://www.w3.org/2004/02/skos/core#prefLabel> "Agrarmarkt Austria (AMA)"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0010> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.bmimi.gv.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0134> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0006> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0051> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0008> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0001> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0061> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0011> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.asfinag.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0008> <http://purl.org/dc/terms/relation> <https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0115> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.apg.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0012> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0043> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0008> <http://purl.org/dc/terms/relation> <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0018> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0013> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0002> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0134> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0080> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.verbund.com/"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0024> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0025> <http://purl.org/dc/terms/relation> <https://registry.inspire.gv.at/codelist/vbgLandUseValue> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0111> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0132> <http://www.w3.org/2004/02/skos/core#notation> "0132" <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0064> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0027> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider> <http://purl.org/dc/terms/title> "INSPIRE Datenanbieter"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0090> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0022> <http://www.w3.org/2004/02/skos/core#notation> "0022" <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0046> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0133> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0131> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0006> <http://www.w3.org/2004/02/skos/core#notation> "0006" <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0013> <http://www.w3.org/2004/02/skos/core#notation> "0013" <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0130> <http://www.w3.org/2004/02/skos/core#prefLabel> "Energienetze Steiermark GmbH"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0078> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0068> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0046> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0014> <http://www.w3.org/2004/02/skos/core#notation> "0014" <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider> <http://purl.org/dc/terms/description> "Das österreichische Geodatenstellenregister enthält die INSPIRE Datenanbieter."@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0065> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0111> <http://www.w3.org/2004/02/skos/core#notation> "0111" <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0046> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0134> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0095> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0051> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0061> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0134> <http://purl.org/linked-data/registry#predecessor> <https://registry.inspire.gv.at/dataprovider/0038> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0022> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.salzburg.gv.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0010> <http://www.w3.org/2004/02/skos/core#notation> "0010" <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0134> <http://www.w3.org/2004/02/skos/core#prefLabel> "GeoSphere Austria - Bundesanstalt für Geologie, Geophysik, Klimatologie und Meteorologie"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0078> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0064> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0008> <http://purl.org/dc/terms/relation> <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0021> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0051> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bundesministerium für Wirtschaft, Energie und Tourismus (BMWET)"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0080> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0051> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0021> <http://purl.org/dc/terms/relation> <https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0018> <http://www.w3.org/2004/02/skos/core#prefLabel> "Land Burgenland / Amt der Burgenländischen Landesregierung"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0061> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0095> <http://purl.org/dc/terms/relation> <https://registry.inspire.gv.at/codelist/referenzart> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0021> <http://purl.org/dc/terms/relation> <https://registry.inspire.gv.at/codelist/ooeLandUseValue> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0132> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0012> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0132> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.geoland.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0111> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0080> <http://www.w3.org/2004/02/skos/core#notation> "0080" <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0023> <http://www.w3.org/2004/02/skos/core#prefLabel> "Land Steiermark / Amt der Steiermärkischen Landesregierung"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0052> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0006> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.bfw.gv.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0025> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0131> <http://www.w3.org/2004/02/skos/core#prefLabel> "Österreichisches Institut für Verkehrsdateninfrastruktur (ÖVDAT)"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0090> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0024> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0006> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0111> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0018> <http://www.w3.org/2004/02/skos/core#notation> "0018" <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0095> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0025> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0003> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0111> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0067> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0046> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.noe.gv.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0056> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0001> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0078> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0090> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0052> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0023> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0009> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0014> <http://www.w3.org/2004/02/skos/core#prefLabel> "via donau - Österreichische Wasserstraßen-GmbH (viadonau)"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0006> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0061> <http://www.w3.org/2004/02/skos/core#prefLabel> "Land-, forst- und wasserwirtschaftliches Rechenzentrum GmbH (LFRZ)"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0043> <http://purl.org/dc/terms/relation> <https://registry.inspire.gv.at/codelist/OgdCategoryAustria> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0015> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0019> <http://www.w3.org/2004/02/skos/core#notation> "0019" <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0056> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0003> <http://www.w3.org/2004/02/skos/core#notation> "0003" <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0049> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0022> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0021> <http://www.w3.org/2004/02/skos/core#notation> "0021" <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0019> <http://purl.org/dc/terms/relation> <https://registry.inspire.gv.at/codelist/ktnLandUseValue> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0111> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.vorarlbergnetz.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0027> <http://www.w3.org/2004/02/skos/core#prefLabel> "Statistik Austria"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0130> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0015> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0038> <http://www.w3.org/2004/02/skos/core#definition> "Die 1851 gegründete Zentralanstalt für Meteorologie und Geodynamik (19., Hohe Warte 38-40; auch ZAMG oder Hohe Warte) war der staatliche meteorologische und geophysikalische Dienst der Monarchie später der Republik Österreich. Mit 1. Jänner 2023 fusioniert die Zentralanstalt für Meteorologie und Geodynamik mit der Geologischen Bundesanstalt zur neuen Bundesanstalt GeoSphere Austria. (aus Wien Geschichte Wiki)"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0135> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0025> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://vorarlberg.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0008> <http://www.w3.org/2004/02/skos/core#notation> "0008" <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0019> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0027> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0038> <http://purl.org/linked-data/registry#successor> <https://registry.inspire.gv.at/dataprovider/0134> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0023> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0009> <http://www.w3.org/2004/02/skos/core#prefLabel> "Forsttechnischer Dienst für Wildbach- und Lawinenverbauung (WLV)"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider> <http://purl.org/dc/terms/description> "The Austrian data provider register contains the contributing data providers."@en <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0052> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0003> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0006> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bundesforschungs- und Ausbildungszentrum für Wald, Naturgefahren und Landschaft (BFW)"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0008> <http://purl.org/dc/terms/relation> <https://registry.inspire.gv.at/codelist/Naturraumregionen> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0019> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0009> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0018> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0065> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.netzooe.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0013> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0010> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0001> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.ages.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0002> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0134> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0015> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0011> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0131> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.noe.gv.at/noe/Mobilitaetsstrategie/OEVDAT.html"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0067> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0052> <http://www.w3.org/2004/02/skos/core#notation> "0052" <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0046> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0134> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0021> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0131> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0033> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0135> <http://www.w3.org/2004/02/skos/core#notation> "0135" <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0008> <http://purl.org/dc/terms/relation> <https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0009> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0033> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0064> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0008> <http://purl.org/dc/terms/relation> <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S322> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0009> <http://www.w3.org/2004/02/skos/core#notation> "0009" <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0135> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0006> <http://purl.org/dc/terms/relation> <https://registry.inspire.gv.at/codelist/forestInventoryTypeValue> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0043> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0002> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0011> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0001> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0056> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0022> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0131> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0012> <http://www.w3.org/2004/02/skos/core#notation> "0012" <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0005> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0010> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0023> <http://purl.org/dc/terms/relation> <https://registry.inspire.gv.at/codelist/stmLandUseValue> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0130> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0043> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bundeskanzleramt (BKA)"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0132> <http://www.w3.org/2004/02/skos/core#prefLabel> "geoland.at - das Geodatenportal der österreichischen Länder"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0043> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0090> <https://registry.inspire.gv.at/dataprovider:2> .
 <https://registry.inspire.gv.at/dataprovider/0027> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0061> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0067> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0052> <http://www.w3.org/2004/02/skos/core#prefLabel> "Land Wien / Amt der Wiener Landesregierung"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0023> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0049> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0078> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0006> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0095> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0014> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0133> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0033> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0027> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0095> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.ama.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0080> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0005> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0043> <http://www.w3.org/2004/02/skos/core#notation> "0043" <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0003> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0132> <https://registry.inspire.gv.at/dataprovider:2> .
 <https://registry.inspire.gv.at/dataprovider/0013> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0049> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
 <https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0027> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0056> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bundesministerium für Frauen, Wissenschaft und Forschung (BMFWF)"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0111> <http://www.w3.org/2004/02/skos/core#prefLabel> "Vorarlberger Energienetze GmbH (Vorarlberg Netz)"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0061> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.lfrz.gv.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0008> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0009> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0132> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0024> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0095> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0003> <http://www.w3.org/2004/02/skos/core#definition> "Website: http://www.bmf.gv.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0013> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://infrastruktur.oebb.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0130> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0015> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0135> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0011> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0068> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://kaerntennetz.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0065> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0024> <http://www.w3.org/2004/02/skos/core#prefLabel> "Land Tirol / Amt der Tiroler Landesregierung"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0024> <http://www.w3.org/2004/02/skos/core#notation> "0024" <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0011> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0005> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0052> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0010> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0008> <http://purl.org/dc/terms/relation> <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0008> <http://purl.org/dc/terms/relation> <https://registry.inspire.gv.at/codelist/NaturraumregionenSTMK> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0019> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0134> <http://purl.org/linked-data/registry#predecessor> <https://registry.inspire.gv.at/dataprovider/0015> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0025> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0065> <http://www.w3.org/2004/02/skos/core#prefLabel> "Netz Oberösterreich GmbH"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0021> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0115> <http://www.w3.org/2004/02/skos/core#notation> "0115" <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0065> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0115> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0005> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bundesministerium für Land- und Forstwirtschaft, Klima- und Umweltschutz, Regionen und Wasserwirtschaft (BMLUK)"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0068> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0095> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0014> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.viadonau.org/"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0133> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0051> <http://www.w3.org/2004/02/skos/core#notation> "0051" <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0033> <http://www.w3.org/2004/02/skos/core#prefLabel> "Salzburg AG für Energie, Verkehr & Telekommunikation (Salzburg AG)"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0025> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0067> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0038> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0014> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0134> <http://www.w3.org/2004/02/skos/core#notation> "0134" <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0056> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0022> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0002> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.bev.gv.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0115> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0134> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.geosphere.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0064> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0043> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
 <https://registry.inspire.gv.at/dataprovider/0133> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0019> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.ktn.gv.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0021> <http://purl.org/dc/terms/relation> <https://registry.inspire.gv.at/codelist/PlanTypeNameValue> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0015> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/retired> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0005> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0018> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.burgenland.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0010> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0130> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0021> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0005> <http://www.w3.org/2004/02/skos/core#notation> "0005" <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0068> <http://www.w3.org/2004/02/skos/core#prefLabel> "KNG-Kärnten Netz GmbH (Kärnten Netz)"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0115> <http://www.w3.org/2004/02/skos/core#prefLabel> "Austrian Power Grid AG (APG)"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0056> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0022> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0023> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0065> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0006> <http://purl.org/dc/terms/relation> <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0003> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0013> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0067> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0009> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0067> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0019> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0008> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0049> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bundesministerium für Landesverteidigung (BMLV)"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0046> <http://www.w3.org/2004/02/skos/core#notation> "0046" <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0038> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0024> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0115> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0049> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0065> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0025> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0043> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.bundeskanzleramt.gv.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0049> <http://www.w3.org/2004/02/skos/core#definition> "Website: http://www.bmlv.gv.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0033> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0133> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.bmi.gv.at"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0021> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0131> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0051> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.bmwet.gv.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0019> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0080> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0008> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0064> <http://www.w3.org/2004/02/skos/core#notation> "0064" <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0067> <http://www.w3.org/2004/02/skos/core#notation> "0067" <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0056> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.bmfwf.gv.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0130> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0056> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0022> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0051> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0014> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0009> <http://purl.org/dc/terms/relation> <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0132> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0064> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.netzburgenland.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0052> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.wien.gv.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0064> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0051> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0095> <http://purl.org/dc/terms/relation> <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0067> <http://www.w3.org/2004/02/skos/core#prefLabel> "Netz Niederösterreich GmbH"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0009> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.die-wildbach.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0022> <http://purl.org/dc/terms/relation> <https://registry.inspire.gv.at/codelist/sbgLandUseValue> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0008> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.umweltbundesamt.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0012> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0015> <http://www.w3.org/2004/02/skos/core#definition> "Die 1849 gegründete Geologische Bundesanstalt war eine dem Bundesministerium für Bildung, Wissenschaft und Forschung (BMBWF) nachgeordnete Dienststelle, die der Bundesrepublik und deren staatlichen Aufgaben als zentrale Informations- und Beratungsstelle im Fachbereich der Geowissenschaften diente. Mit 1. Jänner 2023 fusionierte die Geologische Bundesanstalt mit der Zentralanstalt für Meteorologie und Geodynamik (ZAMG) zur neuen Bundesanstalt GeoSphere Austria. (aus Wien Geschichte Wiki)"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0001> <http://www.w3.org/2004/02/skos/core#prefLabel> "Österreichische Agentur für Gesundheit und Ernährungssicherheit GmbH (AGES)"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0131> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0012> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.austrocontrol.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0025> <http://www.w3.org/2004/02/skos/core#notation> "0025" <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0009> <http://purl.org/dc/terms/relation> <https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0052> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0001> <http://www.w3.org/2004/02/skos/core#notation> "0001" <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0005> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0046> <http://purl.org/dc/terms/relation> <https://registry.inspire.gv.at/codelist/noeLandUseValue> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0010> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0033> <http://www.w3.org/2004/02/skos/core#notation> "0033" <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0027> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.statistik.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0043> <http://purl.org/dc/terms/relation> <https://registry.inspire.gv.at/codelist/DirectiveRelevance> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0111> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0095> <http://purl.org/dc/terms/relation> <https://registry.inspire.gv.at/codelist/schlagnutzungsart> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0080> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0008> <http://purl.org/dc/terms/relation> <https://registry.inspire.gv.at/codelist/LISALandCoverClassValue> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0008> <http://www.w3.org/2004/02/skos/core#prefLabel> "Umweltbundesamt GmbH"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0038> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0023> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.verwaltung.steiermark.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0024> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0049> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0024> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.tirol.gv.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0046> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0068> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
 <https://registry.inspire.gv.at/dataprovider/0065> <http://www.w3.org/2004/02/skos/core#notation> "0065" <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0033> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.salzburg-ag.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0010> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.bmimi.gv.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0024> <http://www.w3.org/2004/02/skos/core#notation> "0024" <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0023> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0023> <http://www.w3.org/2004/02/skos/core#prefLabel> "Land Steiermark / Amt der Steiermärkischen Landesregierung"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0038> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zentralanstalt für Meteorologie und Geodynamik (ZAMG)"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0080> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0051> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0001> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0095> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0010> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0014> <http://www.w3.org/2004/02/skos/core#notation> "0014" <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0009> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0013> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0024> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.tirol.gv.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0011> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0019> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0056> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.bmfwf.gv.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0064> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0061> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0065> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0080> <http://www.w3.org/2004/02/skos/core#notation> "0080" <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0009> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.die-wildbach.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0080> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0021> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0005> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0090> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0018> <http://www.w3.org/2004/02/skos/core#prefLabel> "Land Burgenland / Amt der Burgenländischen Landesregierung"@de <https://registry.inspire.gv.at/dataprovider:2> .
 <https://registry.inspire.gv.at/dataprovider/0033> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0078> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0018> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0013> <https://registry.inspire.gv.at/dataprovider:2> .
 <https://registry.inspire.gv.at/dataprovider/0132> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0025> <http://www.w3.org/2004/02/skos/core#prefLabel> "Land Vorarlberg / Amt der Vorarlberger Landesregierung"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0011> <http://www.w3.org/2004/02/skos/core#notation> "0011" <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0131> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0010> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bundesministerium für Innovation, Mobilität und Infrastruktur (BMIMI)"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0027> <http://www.w3.org/2004/02/skos/core#notation> "0027" <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0080> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0067> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.netz-noe.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0038> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/retired> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0022> <http://www.w3.org/2004/02/skos/core#prefLabel> "Land Salzburg / Amt der Salzburger Landesregierung"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0024> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0038> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0023> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider> <http://purl.org/dc/terms/created> "2025-10-16T19:38:29.926000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0006> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.bfw.gv.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0067> <http://www.w3.org/2004/02/skos/core#prefLabel> "Netz Niederösterreich GmbH"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0064> <http://www.w3.org/2004/02/skos/core#prefLabel> "Netz Burgenland GmbH"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0080> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.verbund.com/"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0067> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0115> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0018> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0013> <http://www.w3.org/2004/02/skos/core#notation> "0013" <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0021> <http://purl.org/dc/terms/relation> <https://registry.inspire.gv.at/codelist/PlanTypeNameValue> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0068> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://kaerntennetz.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0111> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0022> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0008> <http://www.w3.org/2004/02/skos/core#notation> "0008" <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0027> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0068> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0006> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0002> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0009> <http://purl.org/dc/terms/relation> <https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0134> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0131> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0051> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.bmwet.gv.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0067> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0011> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0008> <http://purl.org/dc/terms/relation> <https://registry.inspire.gv.at/codelist/LISALandCoverClassValue> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0061> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider> <http://purl.org/dc/terms/title> "INSPIRE Datenanbieter"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0046> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0013> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0009> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0012> <http://www.w3.org/2004/02/skos/core#prefLabel> "Austro Control"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0130> <http://www.w3.org/2004/02/skos/core#notation> "0130" <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0008> <http://purl.org/dc/terms/relation> <https://registry.inspire.gv.at/codelist/Naturraumregionen> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0033> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0021> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0115> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0068> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0078> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0015> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0065> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0015> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0022> <http://www.w3.org/2004/02/skos/core#notation> "0022" <https://registry.inspire.gv.at/dataprovider:2> .
 <https://registry.inspire.gv.at/dataprovider/0061> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0010> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0067> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0001> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.ages.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0046> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0130> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.e-netze.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0023> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0013> <http://www.w3.org/2004/02/skos/core#prefLabel> "ÖBB-Infrastruktur AG (ÖBB Infra)"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0011> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0056> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0061> <http://www.w3.org/2004/02/skos/core#prefLabel> "Land-, forst- und wasserwirtschaftliches Rechenzentrum GmbH (LFRZ)"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0018> <http://purl.org/dc/terms/relation> <https://registry.inspire.gv.at/codelist/bglLandUseValue> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0090> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0131> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0008> <http://purl.org/dc/terms/relation> <https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0018> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.burgenland.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0006> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0064> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0023> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0067> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0024> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0019> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0038> <http://purl.org/linked-data/registry#successor> <https://registry.inspire.gv.at/dataprovider/0134> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0015> <http://www.w3.org/2004/02/skos/core#definition> "Die 1849 gegründete Geologische Bundesanstalt war eine dem Bundesministerium für Bildung, Wissenschaft und Forschung (BMBWF) nachgeordnete Dienststelle, die der Bundesrepublik und deren staatlichen Aufgaben als zentrale Informations- und Beratungsstelle im Fachbereich der Geowissenschaften diente. Mit 1. Jänner 2023 fusionierte die Geologische Bundesanstalt mit der Zentralanstalt für Meteorologie und Geodynamik (ZAMG) zur neuen Bundesanstalt GeoSphere Austria. (aus Wien Geschichte Wiki)"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0038> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0115> <http://www.w3.org/2004/02/skos/core#notation> "0115" <https://registry.inspire.gv.at/dataprovider:2> .
 <https://registry.inspire.gv.at/dataprovider/0049> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0021> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.land-oberoesterreich.gv.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0033> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0005> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.bmluk.gv.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0008> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0023> <http://purl.org/dc/terms/relation> <https://registry.inspire.gv.at/codelist/stmLandUseValue> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0056> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0131> <http://www.w3.org/2004/02/skos/core#prefLabel> "Österreichisches Institut für Verkehrsdateninfrastruktur (ÖVDAT)"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0012> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0115> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0051> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bundesministerium für Wirtschaft, Energie und Tourismus (BMWET)"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0002> <http://www.w3.org/2004/02/skos/core#notation> "0002" <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0038> <http://www.w3.org/2004/02/skos/core#notation> "0038" <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0008> <http://purl.org/dc/terms/relation> <https://registry.inspire.gv.at/codelist/Biotoptypen_AT> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0056> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0005> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0008> <http://www.w3.org/2004/02/skos/core#prefLabel> "Umweltbundesamt GmbH"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0095> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0013> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://infrastruktur.oebb.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0078> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0095> <http://purl.org/dc/terms/relation> <https://registry.inspire.gv.at/codelist/schlagnutzungsart> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0019> <http://www.w3.org/2004/02/skos/core#notation> "0019" <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0078> <http://www.w3.org/2004/02/skos/core#prefLabel> "TINETZ-Tiroler Netze GmbH (TINETZ)"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0008> <http://purl.org/dc/terms/relation> <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0014> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0009> <http://www.w3.org/2004/02/skos/core#prefLabel> "Forsttechnischer Dienst für Wildbach- und Lawinenverbauung (WLV)"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0005> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bundesministerium für Land- und Forstwirtschaft, Klima- und Umweltschutz, Regionen und Wasserwirtschaft (BMLUK)"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0080> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0019> <http://www.w3.org/2004/02/skos/core#prefLabel> "Land Kärnten / Amt der Kärntner Landesregierung"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0012> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0095> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0133> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0095> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0023> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0019> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0027> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0002> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0130> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0011> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.asfinag.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0038> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0014> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0132> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.geoland.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0046> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0111> <http://www.w3.org/2004/02/skos/core#prefLabel> "Vorarlberger Energienetze GmbH (Vorarlberg Netz)"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0003> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0111> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0095> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0132> <http://www.w3.org/2004/02/skos/core#notation> "0132" <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0078> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0056> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0019> <http://purl.org/dc/terms/relation> <https://registry.inspire.gv.at/codelist/ktnLandUseValue> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0135> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0046> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0111> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0134> <http://www.w3.org/2004/02/skos/core#prefLabel> "GeoSphere Austria - Bundesanstalt für Geologie, Geophysik, Klimatologie und Meteorologie"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0132> <http://www.w3.org/2004/02/skos/core#prefLabel> "geoland.at - das Geodatenportal der österreichischen Länder"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0008> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0068> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0130> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0001> <http://www.w3.org/2004/02/skos/core#notation> "0001" <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0064> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.netzburgenland.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0006> <http://purl.org/dc/terms/relation> <https://registry.inspire.gv.at/codelist/forestInventoryTypeValue> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0115> <http://www.w3.org/2004/02/skos/core#prefLabel> "Austrian Power Grid AG (APG)"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0002> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0027> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0132> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0133> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0033> <http://www.w3.org/2004/02/skos/core#prefLabel> "Salzburg AG für Energie, Verkehr & Telekommunikation (Salzburg AG)"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0134> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.geosphere.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0002> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0043> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0008> <http://purl.org/dc/terms/relation> <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0134> <http://purl.org/linked-data/registry#predecessor> <https://registry.inspire.gv.at/dataprovider/0015> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0022> <http://www.w3.org/2004/02/skos/core#prefLabel> "Land Salzburg / Amt der Salzburger Landesregierung"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0003> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0024> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0011> <http://www.w3.org/2004/02/skos/core#prefLabel> "Autobahnen- und Schnellstraßen-Finanzierungs-Aktiengesellschaft (ASFINAG)"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0021> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0022> <http://purl.org/dc/terms/relation> <https://registry.inspire.gv.at/codelist/sbgLandUseValue> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0061> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.lfrz.gv.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0049> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0115> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0061> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0006> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0015> <http://purl.org/linked-data/registry#successor> <https://registry.inspire.gv.at/dataprovider/0134> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0130> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0015> <http://www.w3.org/2004/02/skos/core#notation> "0015" <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0064> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0078> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0003> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0061> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0033> <http://www.w3.org/2004/02/skos/core#notation> "0033" <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0025> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0033> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0068> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0064> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0038> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0010> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bundesministerium für Innovation, Mobilität und Infrastruktur (BMIMI)"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0115> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.apg.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0134> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0014> <http://www.w3.org/2004/02/skos/core#prefLabel> "via donau - Österreichische Wasserstraßen-GmbH (viadonau)"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0115> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0015> <http://www.w3.org/2004/02/skos/core#prefLabel> "Geologische Bundesanstalt (GBA)"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0090> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0052> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0046> <http://purl.org/dc/terms/relation> <https://registry.inspire.gv.at/codelist/noeLandUseValue> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0080> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
 <https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0115> <https://registry.inspire.gv.at/dataprovider:2> .
 <https://registry.inspire.gv.at/dataprovider/0090> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://bab.gv.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0135> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0132> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0049> <http://www.w3.org/2004/02/skos/core#notation> "0049" <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0061> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0008> <http://purl.org/dc/terms/relation> <https://registry.inspire.gv.at/codelist/specialisedZoneType> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0095> <http://www.w3.org/2004/02/skos/core#notation> "0095" <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0002> <http://www.w3.org/2004/02/skos/core#notation> "0002" <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0090> <http://www.w3.org/2004/02/skos/core#notation> "0090" <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0064> <http://www.w3.org/2004/02/skos/core#prefLabel> "Netz Burgenland GmbH"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0078> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.tinetz.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0019> <http://www.w3.org/2004/02/skos/core#prefLabel> "Land Kärnten / Amt der Kärntner Landesregierung"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0115> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0135> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0090> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0068> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0038> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zentralanstalt für Meteorologie und Geodynamik (ZAMG)"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0001> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0033> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.salzburg-ag.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0095> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0009> <http://www.w3.org/2004/02/skos/core#notation> "0009" <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0008> <http://purl.org/dc/terms/relation> <https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0111> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.vorarlbergnetz.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0014> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.viadonau.org/"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0049> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0052> <http://www.w3.org/2004/02/skos/core#notation> "0052" <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0022> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
 <https://registry.inspire.gv.at/dataprovider/0133> <http://www.w3.org/2004/02/skos/core#notation> "0133" <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0003> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bundesministerium für Finanzen (BMF)"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0133> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bundesministerium für Inneres (BMI)"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0008> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0080> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0008> <http://purl.org/dc/terms/relation> <https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0023> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0018> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0061> <http://www.w3.org/2004/02/skos/core#notation> "0061" <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0090> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0002> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0011> <http://www.w3.org/2004/02/skos/core#prefLabel> "Autobahnen- und Schnellstraßen-Finanzierungs-Aktiengesellschaft (ASFINAG)"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0014> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0001> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0003> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0131> <http://www.w3.org/2004/02/skos/core#notation> "0131" <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0006> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0080> <http://www.w3.org/2004/02/skos/core#prefLabel> "VERBUND Hydro Power GmbH"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0132> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0013> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0133> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0134> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
 <https://registry.inspire.gv.at/dataprovider/0046> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0068> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0043> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0038> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0003> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider> <http://purl.org/dc/terms/title> "INSPIRE data providers"@en <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0002> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bundesamt fürr Eich- und Vermessungswesen (BEV)"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0021> <http://www.w3.org/2004/02/skos/core#prefLabel> "Land Oberösterreich / Amt der Oberösterreichischen Landesregierung"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0078> <http://www.w3.org/2004/02/skos/core#prefLabel> "TINETZ-Tiroler Netze GmbH (TINETZ)"@de <https://registry.inspire.gv.at/dataprovider:2> .
-<https://registry.inspire.gv.at/dataprovider/0018> <http://purl.org/dc/terms/relation> <https://registry.inspire.gv.at/codelist/bglLandUseValue> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0065> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0064> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0010> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0015> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0095> <http://purl.org/dc/terms/relation> <https://registry.inspire.gv.at/codelist/referenzart> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0005> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider> <http://purl.org/dc/terms/description> "The Austrian data provider register contains the contributing data providers."@en <https://registry.inspire.gv.at/dataprovider:2> .
 <https://registry.inspire.gv.at/dataprovider/0068> <http://www.w3.org/2004/02/skos/core#notation> "0068" <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0067> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.netz-noe.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider> <http://purl.org/dc/terms/created> "2026-11-06T19:38:29.926000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0068> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0021> <http://www.w3.org/2004/02/skos/core#prefLabel> "Land Oberösterreich / Amt der Oberösterreichischen Landesregierung"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0043> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0078> <http://www.w3.org/2004/02/skos/core#notation> "0078" <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0014> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0008> <http://purl.org/dc/terms/relation> <https://registry.inspire.gv.at/codelist/specialisedZoneType> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0133> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0051> <http://www.w3.org/2004/02/skos/core#notation> "0051" <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0015> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0090> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0052> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0005> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.bmluk.gv.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0023> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.verwaltung.steiermark.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0080> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0067> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0065> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0132> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0024> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0049> <http://www.w3.org/2004/02/skos/core#definition> "Website: http://www.bmlv.gv.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0043> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0012> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.austrocontrol.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0008> <http://purl.org/dc/terms/relation> <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0010> <http://www.w3.org/2004/02/skos/core#notation> "0010" <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0130> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0135> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0046> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.noe.gv.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0002> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bundesamt fürr Eich- und Vermessungswesen (BEV)"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0051> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0111> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0022> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.salzburg.gv.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0024> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0132> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0131> <http://www.w3.org/2004/02/skos/core#notation> "0131" <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0025> <http://purl.org/dc/terms/relation> <https://registry.inspire.gv.at/codelist/vbgLandUseValue> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0090> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0130> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0021> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0005> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0131> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0009> <http://purl.org/dc/terms/relation> <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0033> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0008> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0006> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0005> <http://www.w3.org/2004/02/skos/core#notation> "0005" <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0065> <http://www.w3.org/2004/02/skos/core#prefLabel> "Netz Oberösterreich GmbH"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0008> <http://purl.org/dc/terms/relation> <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0095> <http://purl.org/dc/terms/relation> <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0023> <http://www.w3.org/2004/02/skos/core#notation> "0023" <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0019> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0052> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0001> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0021> <http://www.w3.org/2004/02/skos/core#notation> "0021" <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0090> <http://www.w3.org/2004/02/skos/core#notation> "0090" <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0111> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0130> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0049> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bundesministerium für Landesverteidigung (BMLV)"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0065> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.netzooe.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider> <http://purl.org/dc/terms/description> "Das österreichische Geodatenstellenregister enthält die INSPIRE Datenanbieter."@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0046> <http://www.w3.org/2004/02/skos/core#notation> "0046" <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0064> <http://www.w3.org/2004/02/skos/core#notation> "0064" <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0090> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bundesanstalt für Agrarwirtschaft und Bergbauernfragen (BAB)"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0095> <http://www.w3.org/2004/02/skos/core#prefLabel> "Agrarmarkt Austria (AMA)"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0038> <http://www.w3.org/2004/02/skos/core#definition> "Die 1851 gegründete Zentralanstalt für Meteorologie und Geodynamik (19., Hohe Warte 38-40; auch ZAMG oder Hohe Warte) war der staatliche meteorologische und geophysikalische Dienst der Monarchie später der Republik Österreich. Mit 1. Jänner 2023 fusioniert die Zentralanstalt für Meteorologie und Geodynamik mit der Geologischen Bundesanstalt zur neuen Bundesanstalt GeoSphere Austria. (aus Wien Geschichte Wiki)"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0043> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0049> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0132> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0021> <http://purl.org/dc/terms/relation> <https://registry.inspire.gv.at/codelist/ooeLandUseValue> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0022> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0049> <http://www.w3.org/2004/02/skos/core#notation> "0049" <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0051> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0061> <http://www.w3.org/2004/02/skos/core#notation> "0061" <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0006> <http://purl.org/dc/terms/relation> <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0043> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0018> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0080> <http://www.w3.org/2004/02/skos/core#prefLabel> "VERBUND Hydro Power GmbH"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0043> <http://purl.org/dc/terms/relation> <https://registry.inspire.gv.at/codelist/DirectiveRelevance> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0067> <http://www.w3.org/2004/02/skos/core#notation> "0067" <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0090> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0008> <http://purl.org/dc/terms/relation> <https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0027> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0046> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0038> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0003> <http://www.w3.org/2004/02/skos/core#definition> "Website: http://www.bmf.gv.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0009> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0046> <http://www.w3.org/2004/02/skos/core#prefLabel> "Land Niederösterreich / Amt der Niederösterreichischen Landesregierung"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0018> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0027> <http://www.w3.org/2004/02/skos/core#notation> "0027" <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0025> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0025> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://vorarlberg.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0022> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0012> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0131> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.noe.gv.at/noe/Mobilitaetsstrategie/OEVDAT.html"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0012> <http://www.w3.org/2004/02/skos/core#notation> "0012" <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0013> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider> <http://purl.org/dc/terms/title> "INSPIRE data providers"@en <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0010> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0134> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0003> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bundesministerium für Finanzen (BMF)"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0068> <http://www.w3.org/2004/02/skos/core#prefLabel> "KNG-Kärnten Netz GmbH (Kärnten Netz)"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0012> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0051> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0038> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0019> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0135> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.sozialministerium.gv.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0006> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0006> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bundesforschungs- und Ausbildungszentrum für Wald, Naturgefahren und Landschaft (BFW)"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0131> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0065> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0043> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0130> <http://www.w3.org/2004/02/skos/core#prefLabel> "Energienetze Steiermark GmbH"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0011> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0033> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0052> <http://www.w3.org/2004/02/skos/core#prefLabel> "Land Wien / Amt der Wiener Landesregierung"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0021> <http://purl.org/dc/terms/relation> <https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0135> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bundesministerium für Arbeit, Soziales, Gesundheit, Pflege und Konsumentenschutz"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0008> <http://purl.org/dc/terms/relation> <https://registry.inspire.gv.at/codelist/NaturraumregionenSTMK> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0012> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0133> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0135> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0011> <http://www.w3.org/2004/02/skos/core#notation> "0011" <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0008> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0052> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.wien.gv.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0043> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bundeskanzleramt (BKA)"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0010> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0024> <http://www.w3.org/2004/02/skos/core#prefLabel> "Land Tirol / Amt der Tiroler Landesregierung"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0131> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0005> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0134> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0067> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0015> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/retired> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0052> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0080> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0001> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0061> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0006> <http://www.w3.org/2004/02/skos/core#notation> "0006" <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0009> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0001> <http://www.w3.org/2004/02/skos/core#prefLabel> "Österreichische Agentur für Gesundheit und Ernährungssicherheit GmbH (AGES)"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0019> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.ktn.gv.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0002> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.bev.gv.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0043> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.bundeskanzleramt.gv.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0065> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0052> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0033> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0133> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bundesministerium für Inneres (BMI)"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0024> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0049> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0134> <http://www.w3.org/2004/02/skos/core#notation> "0134" <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0018> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0025> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0022> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0135> <http://www.w3.org/2004/02/skos/core#notation> "0135" <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0133> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.bmi.gv.at"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0056> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0056> <http://www.w3.org/2004/02/skos/core#notation> "0056" <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0021> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.land-oberoesterreich.gv.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0078> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0009> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0111> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0064> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0027> <http://www.w3.org/2004/02/skos/core#prefLabel> "Statistik Austria"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0052> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0111> <http://www.w3.org/2004/02/skos/core#notation> "0111" <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0018> <http://www.w3.org/2004/02/skos/core#notation> "0018" <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0025> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0022> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0008> <http://purl.org/dc/terms/relation> <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S322> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0051> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0095> <http://www.w3.org/2004/02/skos/core#notation> "0095" <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0135> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0025> <http://www.w3.org/2004/02/skos/core#notation> "0025" <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0068> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0131> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0023> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0021> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0011> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0135> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0008> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0078> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.tinetz.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0014> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0049> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0051> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0027> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.statistik.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0134> <http://purl.org/linked-data/registry#predecessor> <https://registry.inspire.gv.at/dataprovider/0038> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0002> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0134> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0018> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0056> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bundesministerium für Frauen, Wissenschaft und Forschung (BMFWF)"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0056> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0014> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0023> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0043> <http://purl.org/dc/terms/relation> <https://registry.inspire.gv.at/codelist/OgdCategoryAustria> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0095> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.ama.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0003> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0025> <http://www.w3.org/2004/02/skos/core#prefLabel> "Land Vorarlberg / Amt der Vorarlberger Landesregierung"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://registry.inspire.gv.at/dataprovider/0024> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0135> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0078> <http://purl.org/dc/terms/created> "2025-10-16T19:40:05.735000+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0025> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/valid> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0008> <http://www.w3.org/2004/02/skos/core#definition> "Website: https://www.umweltbundesamt.at/"@de <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0003> <http://www.w3.org/2004/02/skos/core#notation> "0003" <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0038> <http://www.w3.org/ns/adms#status> <http://inspire.ec.europa.eu/registry/status/retired> <https://registry.inspire.gv.at/dataprovider:2> .
+<https://registry.inspire.gv.at/dataprovider/0001> <http://www.w3.org/2004/02/skos/core#inScheme> <https://registry.inspire.gv.at/dataprovider> <https://registry.inspire.gv.at/dataprovider:2> .
 

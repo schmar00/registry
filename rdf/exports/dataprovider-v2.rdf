@@ -6,55 +6,46 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0014">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0027">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.735000+00:00</dcterms:created>
-    <skos:definition xml:lang="de">Website: https://www.viadonau.org/</skos:definition>
+    <skos:definition xml:lang="de">Website: https://www.statistik.at/</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
-    <skos:notation>0014</skos:notation>
-    <skos:prefLabel xml:lang="de">via donau - Österreichische Wasserstraßen-GmbH (viadonau)</skos:prefLabel>
+    <skos:notation>0027</skos:notation>
+    <skos:prefLabel xml:lang="de">Statistik Austria</skos:prefLabel>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0130">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0043">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.735000+00:00</dcterms:created>
-    <skos:definition xml:lang="de">Website: https://www.e-netze.at/</skos:definition>
+    <dcterms:relation rdf:resource="https://registry.inspire.gv.at/codelist/OgdCategoryAustria"/>
+    <dcterms:relation rdf:resource="https://registry.inspire.gv.at/codelist/DirectiveRelevance"/>
+    <skos:definition xml:lang="de">Website: https://www.bundeskanzleramt.gv.at/</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
-    <skos:notation>0130</skos:notation>
-    <skos:prefLabel xml:lang="de">Energienetze Steiermark GmbH</skos:prefLabel>
+    <skos:notation>0043</skos:notation>
+    <skos:prefLabel xml:lang="de">Bundeskanzleramt (BKA)</skos:prefLabel>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0064">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0003">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.735000+00:00</dcterms:created>
-    <skos:definition xml:lang="de">Website: https://www.netzburgenland.at/</skos:definition>
+    <skos:definition xml:lang="de">Website: http://www.bmf.gv.at/</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
-    <skos:notation>0064</skos:notation>
-    <skos:prefLabel xml:lang="de">Netz Burgenland GmbH</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0135">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.735000+00:00</dcterms:created>
-    <skos:definition xml:lang="de">Website: https://www.sozialministerium.gv.at/</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
-    <skos:notation>0135</skos:notation>
-    <skos:prefLabel xml:lang="de">Bundesministerium für Arbeit, Soziales, Gesundheit, Pflege und Konsumentenschutz</skos:prefLabel>
+    <skos:notation>0003</skos:notation>
+    <skos:prefLabel xml:lang="de">Bundesministerium für Finanzen (BMF)</skos:prefLabel>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:38:29.926000+00:00</dcterms:created>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-11-06T19:38:29.926000+00:00</dcterms:created>
     <dcterms:description xml:lang="de">Das österreichische Geodatenstellenregister enthält die INSPIRE Datenanbieter.</dcterms:description>
     <dcterms:description xml:lang="en">The Austrian data provider register contains the contributing data providers.</dcterms:description>
     <dcterms:title xml:lang="en">INSPIRE data providers</dcterms:title>
     <dcterms:title xml:lang="de">INSPIRE Datenanbieter</dcterms:title>
     <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/dataprovider/0135"/>
-    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/dataprovider/0134"/>
     <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/dataprovider/0133"/>
     <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/dataprovider/0132"/>
     <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/dataprovider/0131"/>
@@ -77,6 +68,7 @@
     <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/dataprovider/0033"/>
     <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/dataprovider/0027"/>
     <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/dataprovider/0024"/>
+    <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/dataprovider/0134"/>
     <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/dataprovider/0015"/>
     <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/dataprovider/0014"/>
     <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/dataprovider/0013"/>
@@ -101,13 +93,63 @@
     <skos:hasTopConcept rdf:resource="https://registry.inspire.gv.at/dataprovider/0022"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0056">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0013">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.735000+00:00</dcterms:created>
-    <skos:definition xml:lang="de">Website: https://www.bmfwf.gv.at/</skos:definition>
+    <skos:definition xml:lang="de">Website: https://infrastruktur.oebb.at/</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
-    <skos:notation>0056</skos:notation>
-    <skos:prefLabel xml:lang="de">Bundesministerium für Frauen, Wissenschaft und Forschung (BMFWF)</skos:prefLabel>
+    <skos:notation>0013</skos:notation>
+    <skos:prefLabel xml:lang="de">ÖBB-Infrastruktur AG (ÖBB Infra)</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0133">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.735000+00:00</dcterms:created>
+    <skos:definition xml:lang="de">Website: https://www.bmi.gv.at</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <skos:notation>0133</skos:notation>
+    <skos:prefLabel xml:lang="de">Bundesministerium für Inneres (BMI)</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0002">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.735000+00:00</dcterms:created>
+    <skos:definition xml:lang="de">Website: https://www.bev.gv.at/</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <skos:notation>0002</skos:notation>
+    <skos:prefLabel xml:lang="de">Bundesamt fürr Eich- und Vermessungswesen (BEV)</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0065">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.735000+00:00</dcterms:created>
+    <skos:definition xml:lang="de">Website: https://www.netzooe.at/</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <skos:notation>0065</skos:notation>
+    <skos:prefLabel xml:lang="de">Netz Oberösterreich GmbH</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0010">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.735000+00:00</dcterms:created>
+    <skos:definition xml:lang="de">Website: https://www.bmimi.gv.at/</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <skos:notation>0010</skos:notation>
+    <skos:prefLabel xml:lang="de">Bundesministerium für Innovation, Mobilität und Infrastruktur (BMIMI)</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0024">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.735000+00:00</dcterms:created>
+    <skos:definition xml:lang="de">Website: https://www.tirol.gv.at/</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <skos:notation>0024</skos:notation>
+    <skos:prefLabel xml:lang="de">Land Tirol / Amt der Tiroler Landesregierung</skos:prefLabel>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
@@ -122,13 +164,34 @@
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0065">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0038">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.735000+00:00</dcterms:created>
-    <skos:definition xml:lang="de">Website: https://www.netzooe.at/</skos:definition>
+    <ns2:successor rdf:resource="https://registry.inspire.gv.at/dataprovider/0134"/>
+    <skos:definition xml:lang="de">Die 1851 gegründete Zentralanstalt für Meteorologie und Geodynamik (19., Hohe Warte 38-40; auch ZAMG oder Hohe Warte) war der staatliche meteorologische und geophysikalische Dienst der Monarchie später der Republik Österreich. Mit 1. Jänner 2023 fusioniert die Zentralanstalt für Meteorologie und Geodynamik mit der Geologischen Bundesanstalt zur neuen Bundesanstalt GeoSphere Austria. (aus Wien Geschichte Wiki)</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
-    <skos:notation>0065</skos:notation>
-    <skos:prefLabel xml:lang="de">Netz Oberösterreich GmbH</skos:prefLabel>
+    <skos:notation>0038</skos:notation>
+    <skos:prefLabel xml:lang="de">Zentralanstalt für Meteorologie und Geodynamik (ZAMG)</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/retired"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0080">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.735000+00:00</dcterms:created>
+    <skos:definition xml:lang="de">Website: https://www.verbund.com/</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <skos:notation>0080</skos:notation>
+    <skos:prefLabel xml:lang="de">VERBUND Hydro Power GmbH</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0005">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.735000+00:00</dcterms:created>
+    <skos:definition xml:lang="de">Website: https://www.bmluk.gv.at/</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <skos:notation>0005</skos:notation>
+    <skos:prefLabel xml:lang="de">Bundesministerium für Land- und Forstwirtschaft, Klima- und Umweltschutz, Regionen und Wasserwirtschaft (BMLUK)</skos:prefLabel>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
@@ -142,109 +205,13 @@
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0134">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0001">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.735000+00:00</dcterms:created>
-    <ns2:predecessor rdf:resource="https://registry.inspire.gv.at/dataprovider/0038"/>
-    <ns2:predecessor rdf:resource="https://registry.inspire.gv.at/dataprovider/0015"/>
-    <skos:definition xml:lang="de">Website: https://www.geosphere.at/</skos:definition>
+    <skos:definition xml:lang="de">Website: https://www.ages.at/</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
-    <skos:notation>0134</skos:notation>
-    <skos:prefLabel xml:lang="de">GeoSphere Austria - Bundesanstalt für Geologie, Geophysik, Klimatologie und Meteorologie</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0038">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.735000+00:00</dcterms:created>
-    <ns2:successor rdf:resource="https://registry.inspire.gv.at/dataprovider/0134"/>
-    <skos:definition xml:lang="de">Die 1851 gegründete Zentralanstalt für Meteorologie und Geodynamik (19., Hohe Warte 38-40; auch ZAMG oder Hohe Warte) war der staatliche meteorologische und geophysikalische Dienst der Monarchie später der Republik Österreich. Mit 1. Jänner 2023 fusioniert die Zentralanstalt für Meteorologie und Geodynamik mit der Geologischen Bundesanstalt zur neuen Bundesanstalt GeoSphere Austria. (aus Wien Geschichte Wiki)</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
-    <skos:notation>0038</skos:notation>
-    <skos:prefLabel xml:lang="de">Zentralanstalt für Meteorologie und Geodynamik (ZAMG)</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/retired"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0012">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.735000+00:00</dcterms:created>
-    <skos:definition xml:lang="de">Website: https://www.austrocontrol.at/</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
-    <skos:notation>0012</skos:notation>
-    <skos:prefLabel xml:lang="de">Austro Control</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0133">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.735000+00:00</dcterms:created>
-    <skos:definition xml:lang="de">Website: https://www.bmi.gv.at</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
-    <skos:notation>0133</skos:notation>
-    <skos:prefLabel xml:lang="de">Bundesministerium für Inneres (BMI)</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0027">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.735000+00:00</dcterms:created>
-    <skos:definition xml:lang="de">Website: https://www.statistik.at/</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
-    <skos:notation>0027</skos:notation>
-    <skos:prefLabel xml:lang="de">Statistik Austria</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0015">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.735000+00:00</dcterms:created>
-    <ns2:successor rdf:resource="https://registry.inspire.gv.at/dataprovider/0134"/>
-    <skos:definition xml:lang="de">Die 1849 gegründete Geologische Bundesanstalt war eine dem Bundesministerium für Bildung, Wissenschaft und Forschung (BMBWF) nachgeordnete Dienststelle, die der Bundesrepublik und deren staatlichen Aufgaben als zentrale Informations- und Beratungsstelle im Fachbereich der Geowissenschaften diente. Mit 1. Jänner 2023 fusionierte die Geologische Bundesanstalt mit der Zentralanstalt für Meteorologie und Geodynamik (ZAMG) zur neuen Bundesanstalt GeoSphere Austria. (aus Wien Geschichte Wiki)</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
-    <skos:notation>0015</skos:notation>
-    <skos:prefLabel xml:lang="de">Geologische Bundesanstalt (GBA)</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/retired"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0005">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.735000+00:00</dcterms:created>
-    <skos:definition xml:lang="de">Website: https://www.bmluk.gv.at/</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
-    <skos:notation>0005</skos:notation>
-    <skos:prefLabel xml:lang="de">Bundesministerium für Land- und Forstwirtschaft, Klima- und Umweltschutz, Regionen und Wasserwirtschaft (BMLUK)</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0013">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.735000+00:00</dcterms:created>
-    <skos:definition xml:lang="de">Website: https://infrastruktur.oebb.at/</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
-    <skos:notation>0013</skos:notation>
-    <skos:prefLabel xml:lang="de">ÖBB-Infrastruktur AG (ÖBB Infra)</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0052">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.735000+00:00</dcterms:created>
-    <skos:definition xml:lang="de">Website: https://www.wien.gv.at/</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
-    <skos:notation>0052</skos:notation>
-    <skos:prefLabel xml:lang="de">Land Wien / Amt der Wiener Landesregierung</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0043">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.735000+00:00</dcterms:created>
-    <dcterms:relation rdf:resource="https://registry.inspire.gv.at/codelist/OgdCategoryAustria"/>
-    <dcterms:relation rdf:resource="https://registry.inspire.gv.at/codelist/DirectiveRelevance"/>
-    <skos:definition xml:lang="de">Website: https://www.bundeskanzleramt.gv.at/</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
-    <skos:notation>0043</skos:notation>
-    <skos:prefLabel xml:lang="de">Bundeskanzleramt (BKA)</skos:prefLabel>
+    <skos:notation>0001</skos:notation>
+    <skos:prefLabel xml:lang="de">Österreichische Agentur für Gesundheit und Ernährungssicherheit GmbH (AGES)</skos:prefLabel>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
@@ -261,6 +228,142 @@
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0014">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.735000+00:00</dcterms:created>
+    <skos:definition xml:lang="de">Website: https://www.viadonau.org/</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <skos:notation>0014</skos:notation>
+    <skos:prefLabel xml:lang="de">via donau - Österreichische Wasserstraßen-GmbH (viadonau)</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0009">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.735000+00:00</dcterms:created>
+    <dcterms:relation rdf:resource="https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV"/>
+    <dcterms:relation rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP"/>
+    <skos:definition xml:lang="de">Website: https://www.die-wildbach.at/</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <skos:notation>0009</skos:notation>
+    <skos:prefLabel xml:lang="de">Forsttechnischer Dienst für Wildbach- und Lawinenverbauung (WLV)</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0011">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.735000+00:00</dcterms:created>
+    <skos:definition xml:lang="de">Website: https://www.asfinag.at/</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <skos:notation>0011</skos:notation>
+    <skos:prefLabel xml:lang="de">Autobahnen- und Schnellstraßen-Finanzierungs-Aktiengesellschaft (ASFINAG)</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0019">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.735000+00:00</dcterms:created>
+    <dcterms:relation rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
+    <skos:definition xml:lang="de">Website: https://www.ktn.gv.at/</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <skos:notation>0019</skos:notation>
+    <skos:prefLabel xml:lang="de">Land Kärnten / Amt der Kärntner Landesregierung</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0056">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.735000+00:00</dcterms:created>
+    <skos:definition xml:lang="de">Website: https://www.bmfwf.gv.at/</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <skos:notation>0056</skos:notation>
+    <skos:prefLabel xml:lang="de">Bundesministerium für Frauen, Wissenschaft und Forschung (BMFWF)</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0061">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.735000+00:00</dcterms:created>
+    <skos:definition xml:lang="de">Website: https://www.lfrz.gv.at/</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <skos:notation>0061</skos:notation>
+    <skos:prefLabel xml:lang="de">Land-, forst- und wasserwirtschaftliches Rechenzentrum GmbH (LFRZ)</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0090">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.735000+00:00</dcterms:created>
+    <skos:definition xml:lang="de">Website: https://bab.gv.at/</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <skos:notation>0090</skos:notation>
+    <skos:prefLabel xml:lang="de">Bundesanstalt für Agrarwirtschaft und Bergbauernfragen (BAB)</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0018">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.735000+00:00</dcterms:created>
+    <dcterms:relation rdf:resource="https://registry.inspire.gv.at/codelist/bglLandUseValue"/>
+    <skos:definition xml:lang="de">Website: https://www.burgenland.at/</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <skos:notation>0018</skos:notation>
+    <skos:prefLabel xml:lang="de">Land Burgenland / Amt der Burgenländischen Landesregierung</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0033">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.735000+00:00</dcterms:created>
+    <skos:definition xml:lang="de">Website: https://www.salzburg-ag.at/</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <skos:notation>0033</skos:notation>
+    <skos:prefLabel xml:lang="de">Salzburg AG für Energie, Verkehr &amp; Telekommunikation (Salzburg AG)</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0132">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.735000+00:00</dcterms:created>
+    <skos:definition xml:lang="de">Website: https://www.geoland.at/</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <skos:notation>0132</skos:notation>
+    <skos:prefLabel xml:lang="de">geoland.at - das Geodatenportal der österreichischen Länder</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0006">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.735000+00:00</dcterms:created>
+    <dcterms:relation rdf:resource="https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue"/>
+    <dcterms:relation rdf:resource="https://registry.inspire.gv.at/codelist/forestInventoryTypeValue"/>
+    <skos:definition xml:lang="de">Website: https://www.bfw.gv.at/</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <skos:notation>0006</skos:notation>
+    <skos:prefLabel xml:lang="de">Bundesforschungs- und Ausbildungszentrum für Wald, Naturgefahren und Landschaft (BFW)</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0067">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.735000+00:00</dcterms:created>
+    <skos:definition xml:lang="de">Website: https://www.netz-noe.at/</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <skos:notation>0067</skos:notation>
+    <skos:prefLabel xml:lang="de">Netz Niederösterreich GmbH</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0064">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.735000+00:00</dcterms:created>
+    <skos:definition xml:lang="de">Website: https://www.netzburgenland.at/</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <skos:notation>0064</skos:notation>
+    <skos:prefLabel xml:lang="de">Netz Burgenland GmbH</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0115">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.735000+00:00</dcterms:created>
@@ -271,9 +374,54 @@
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0021">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.735000+00:00</dcterms:created>
+    <dcterms:relation rdf:resource="https://registry.inspire.gv.at/codelist/PlanTypeNameValue"/>
+    <dcterms:relation rdf:resource="https://registry.inspire.gv.at/codelist/ooeLandUseValue"/>
+    <dcterms:relation rdf:resource="https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor"/>
+    <skos:definition xml:lang="de">Website: https://www.land-oberoesterreich.gv.at/</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <skos:notation>0021</skos:notation>
+    <skos:prefLabel xml:lang="de">Land Oberösterreich / Amt der Oberösterreichischen Landesregierung</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0068">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.735000+00:00</dcterms:created>
+    <skos:definition xml:lang="de">Website: https://kaerntennetz.at/</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <skos:notation>0068</skos:notation>
+    <skos:prefLabel xml:lang="de">KNG-Kärnten Netz GmbH (Kärnten Netz)</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0111">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.735000+00:00</dcterms:created>
+    <skos:definition xml:lang="de">Website: https://www.vorarlbergnetz.at/</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <skos:notation>0111</skos:notation>
+    <skos:prefLabel xml:lang="de">Vorarlberger Energienetze GmbH (Vorarlberg Netz)</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0022">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.735000+00:00</dcterms:created>
+    <dcterms:relation rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
+    <skos:definition xml:lang="de">Website: https://www.salzburg.gv.at/</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <skos:notation>0022</skos:notation>
+    <skos:prefLabel xml:lang="de">Land Salzburg / Amt der Salzburger Landesregierung</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0008">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.735000+00:00</dcterms:created>
+    <dcterms:relation rdf:resource="https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme"/>
     <dcterms:relation rdf:resource="https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt"/>
     <dcterms:relation rdf:resource="https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk"/>
     <dcterms:relation rdf:resource="https://registry.inspire.gv.at/codelist/specialisedZoneType"/>
@@ -293,64 +441,13 @@
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0111">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0131">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.735000+00:00</dcterms:created>
-    <skos:definition xml:lang="de">Website: https://www.vorarlbergnetz.at/</skos:definition>
+    <skos:definition xml:lang="de">Website: https://www.noe.gv.at/noe/Mobilitaetsstrategie/OEVDAT.html</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
-    <skos:notation>0111</skos:notation>
-    <skos:prefLabel xml:lang="de">Vorarlberger Energienetze GmbH (Vorarlberg Netz)</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0078">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.735000+00:00</dcterms:created>
-    <skos:definition xml:lang="de">Website: https://www.tinetz.at/</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
-    <skos:notation>0078</skos:notation>
-    <skos:prefLabel xml:lang="de">TINETZ-Tiroler Netze GmbH (TINETZ)</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0011">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.735000+00:00</dcterms:created>
-    <skos:definition xml:lang="de">Website: https://www.asfinag.at/</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
-    <skos:notation>0011</skos:notation>
-    <skos:prefLabel xml:lang="de">Autobahnen- und Schnellstraßen-Finanzierungs-Aktiengesellschaft (ASFINAG)</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0018">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.735000+00:00</dcterms:created>
-    <dcterms:relation rdf:resource="https://registry.inspire.gv.at/codelist/bglLandUseValue"/>
-    <skos:definition xml:lang="de">Website: https://www.burgenland.at/</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
-    <skos:notation>0018</skos:notation>
-    <skos:prefLabel xml:lang="de">Land Burgenland / Amt der Burgenländischen Landesregierung</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0002">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.735000+00:00</dcterms:created>
-    <skos:definition xml:lang="de">Website: https://www.bev.gv.at/</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
-    <skos:notation>0002</skos:notation>
-    <skos:prefLabel xml:lang="de">Bundesamt fürr Eich- und Vermessungswesen (BEV)</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0001">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.735000+00:00</dcterms:created>
-    <skos:definition xml:lang="de">Website: https://www.ages.at/</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
-    <skos:notation>0001</skos:notation>
-    <skos:prefLabel xml:lang="de">Österreichische Agentur für Gesundheit und Ernährungssicherheit GmbH (AGES)</skos:prefLabel>
+    <skos:notation>0131</skos:notation>
+    <skos:prefLabel xml:lang="de">Österreichisches Institut für Verkehrsdateninfrastruktur (ÖVDAT)</skos:prefLabel>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
@@ -365,65 +462,86 @@
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0090">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0012">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.735000+00:00</dcterms:created>
-    <skos:definition xml:lang="de">Website: https://bab.gv.at/</skos:definition>
+    <skos:definition xml:lang="de">Website: https://www.austrocontrol.at/</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
-    <skos:notation>0090</skos:notation>
-    <skos:prefLabel xml:lang="de">Bundesanstalt für Agrarwirtschaft und Bergbauernfragen (BAB)</skos:prefLabel>
+    <skos:notation>0012</skos:notation>
+    <skos:prefLabel xml:lang="de">Austro Control</skos:prefLabel>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0010">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0130">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.735000+00:00</dcterms:created>
-    <skos:definition xml:lang="de">Website: https://www.bmimi.gv.at/</skos:definition>
+    <skos:definition xml:lang="de">Website: https://www.e-netze.at/</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
-    <skos:notation>0010</skos:notation>
-    <skos:prefLabel xml:lang="de">Bundesministerium für Innovation, Mobilität und Infrastruktur (BMIMI)</skos:prefLabel>
+    <skos:notation>0130</skos:notation>
+    <skos:prefLabel xml:lang="de">Energienetze Steiermark GmbH</skos:prefLabel>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0006">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0078">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.735000+00:00</dcterms:created>
-    <dcterms:relation rdf:resource="https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue"/>
-    <dcterms:relation rdf:resource="https://registry.inspire.gv.at/codelist/forestInventoryTypeValue"/>
-    <skos:definition xml:lang="de">Website: https://www.bfw.gv.at/</skos:definition>
+    <skos:definition xml:lang="de">Website: https://www.tinetz.at/</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
-    <skos:notation>0006</skos:notation>
-    <skos:prefLabel xml:lang="de">Bundesforschungs- und Ausbildungszentrum für Wald, Naturgefahren und Landschaft (BFW)</skos:prefLabel>
+    <skos:notation>0078</skos:notation>
+    <skos:prefLabel xml:lang="de">TINETZ-Tiroler Netze GmbH (TINETZ)</skos:prefLabel>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0061">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0015">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.735000+00:00</dcterms:created>
-    <skos:definition xml:lang="de">Website: https://www.lfrz.gv.at/</skos:definition>
+    <ns2:successor rdf:resource="https://registry.inspire.gv.at/dataprovider/0134"/>
+    <skos:definition xml:lang="de">Die 1849 gegründete Geologische Bundesanstalt war eine dem Bundesministerium für Bildung, Wissenschaft und Forschung (BMBWF) nachgeordnete Dienststelle, die der Bundesrepublik und deren staatlichen Aufgaben als zentrale Informations- und Beratungsstelle im Fachbereich der Geowissenschaften diente. Mit 1. Jänner 2023 fusionierte die Geologische Bundesanstalt mit der Zentralanstalt für Meteorologie und Geodynamik (ZAMG) zur neuen Bundesanstalt GeoSphere Austria. (aus Wien Geschichte Wiki)</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
-    <skos:notation>0061</skos:notation>
-    <skos:prefLabel xml:lang="de">Land-, forst- und wasserwirtschaftliches Rechenzentrum GmbH (LFRZ)</skos:prefLabel>
+    <skos:notation>0015</skos:notation>
+    <skos:prefLabel xml:lang="de">Geologische Bundesanstalt (GBA)</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/retired"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0049">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.735000+00:00</dcterms:created>
+    <skos:definition xml:lang="de">Website: http://www.bmlv.gv.at/</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <skos:notation>0049</skos:notation>
+    <skos:prefLabel xml:lang="de">Bundesministerium für Landesverteidigung (BMLV)</skos:prefLabel>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0080">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0135">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.735000+00:00</dcterms:created>
-    <skos:definition xml:lang="de">Website: https://www.verbund.com/</skos:definition>
+    <skos:definition xml:lang="de">Website: https://www.sozialministerium.gv.at/</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
-    <skos:notation>0080</skos:notation>
-    <skos:prefLabel xml:lang="de">VERBUND Hydro Power GmbH</skos:prefLabel>
+    <skos:notation>0135</skos:notation>
+    <skos:prefLabel xml:lang="de">Bundesministerium für Arbeit, Soziales, Gesundheit, Pflege und Konsumentenschutz</skos:prefLabel>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0024">
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0134">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.735000+00:00</dcterms:created>
-    <skos:definition xml:lang="de">Website: https://www.tirol.gv.at/</skos:definition>
+    <ns2:predecessor rdf:resource="https://registry.inspire.gv.at/dataprovider/0038"/>
+    <ns2:predecessor rdf:resource="https://registry.inspire.gv.at/dataprovider/0015"/>
+    <skos:definition xml:lang="de">Website: https://www.geosphere.at/</skos:definition>
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
-    <skos:notation>0024</skos:notation>
-    <skos:prefLabel xml:lang="de">Land Tirol / Amt der Tiroler Landesregierung</skos:prefLabel>
+    <skos:notation>0134</skos:notation>
+    <skos:prefLabel xml:lang="de">GeoSphere Austria - Bundesanstalt für Geologie, Geophysik, Klimatologie und Meteorologie</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0052">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.735000+00:00</dcterms:created>
+    <skos:definition xml:lang="de">Website: https://www.wien.gv.at/</skos:definition>
+    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
+    <skos:notation>0052</skos:notation>
+    <skos:prefLabel xml:lang="de">Land Wien / Amt der Wiener Landesregierung</skos:prefLabel>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>
@@ -435,123 +553,6 @@
     <skos:inScheme rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
     <skos:notation>0025</skos:notation>
     <skos:prefLabel xml:lang="de">Land Vorarlberg / Amt der Vorarlberger Landesregierung</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0009">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.735000+00:00</dcterms:created>
-    <dcterms:relation rdf:resource="https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV"/>
-    <dcterms:relation rdf:resource="https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP"/>
-    <skos:definition xml:lang="de">Website: https://www.die-wildbach.at/</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
-    <skos:notation>0009</skos:notation>
-    <skos:prefLabel xml:lang="de">Forsttechnischer Dienst für Wildbach- und Lawinenverbauung (WLV)</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0132">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.735000+00:00</dcterms:created>
-    <skos:definition xml:lang="de">Website: https://www.geoland.at/</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
-    <skos:notation>0132</skos:notation>
-    <skos:prefLabel xml:lang="de">geoland.at - das Geodatenportal der österreichischen Länder</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0022">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.735000+00:00</dcterms:created>
-    <dcterms:relation rdf:resource="https://registry.inspire.gv.at/codelist/sbgLandUseValue"/>
-    <skos:definition xml:lang="de">Website: https://www.salzburg.gv.at/</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
-    <skos:notation>0022</skos:notation>
-    <skos:prefLabel xml:lang="de">Land Salzburg / Amt der Salzburger Landesregierung</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0131">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.735000+00:00</dcterms:created>
-    <skos:definition xml:lang="de">Website: https://www.noe.gv.at/noe/Mobilitaetsstrategie/OEVDAT.html</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
-    <skos:notation>0131</skos:notation>
-    <skos:prefLabel xml:lang="de">Österreichisches Institut für Verkehrsdateninfrastruktur (ÖVDAT)</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0068">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.735000+00:00</dcterms:created>
-    <skos:definition xml:lang="de">Website: https://kaerntennetz.at/</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
-    <skos:notation>0068</skos:notation>
-    <skos:prefLabel xml:lang="de">KNG-Kärnten Netz GmbH (Kärnten Netz)</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0021">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.735000+00:00</dcterms:created>
-    <dcterms:relation rdf:resource="https://registry.inspire.gv.at/codelist/PlanTypeNameValue"/>
-    <dcterms:relation rdf:resource="https://registry.inspire.gv.at/codelist/ooeLandUseValue"/>
-    <dcterms:relation rdf:resource="https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor"/>
-    <skos:definition xml:lang="de">Website: https://www.land-oberoesterreich.gv.at/</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
-    <skos:notation>0021</skos:notation>
-    <skos:prefLabel xml:lang="de">Land Oberösterreich / Amt der Oberösterreichischen Landesregierung</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0003">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.735000+00:00</dcterms:created>
-    <skos:definition xml:lang="de">Website: http://www.bmf.gv.at/</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
-    <skos:notation>0003</skos:notation>
-    <skos:prefLabel xml:lang="de">Bundesministerium für Finanzen (BMF)</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0067">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.735000+00:00</dcterms:created>
-    <skos:definition xml:lang="de">Website: https://www.netz-noe.at/</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
-    <skos:notation>0067</skos:notation>
-    <skos:prefLabel xml:lang="de">Netz Niederösterreich GmbH</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0019">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.735000+00:00</dcterms:created>
-    <dcterms:relation rdf:resource="https://registry.inspire.gv.at/codelist/ktnLandUseValue"/>
-    <skos:definition xml:lang="de">Website: https://www.ktn.gv.at/</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
-    <skos:notation>0019</skos:notation>
-    <skos:prefLabel xml:lang="de">Land Kärnten / Amt der Kärntner Landesregierung</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0033">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.735000+00:00</dcterms:created>
-    <skos:definition xml:lang="de">Website: https://www.salzburg-ag.at/</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
-    <skos:notation>0033</skos:notation>
-    <skos:prefLabel xml:lang="de">Salzburg AG für Energie, Verkehr &amp; Telekommunikation (Salzburg AG)</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
-    <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://registry.inspire.gv.at/dataprovider/0049">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-16T19:40:05.735000+00:00</dcterms:created>
-    <skos:definition xml:lang="de">Website: http://www.bmlv.gv.at/</skos:definition>
-    <skos:inScheme rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
-    <skos:notation>0049</skos:notation>
-    <skos:prefLabel xml:lang="de">Bundesministerium für Landesverteidigung (BMLV)</skos:prefLabel>
     <skos:topConceptOf rdf:resource="https://registry.inspire.gv.at/dataprovider"/>
     <ns1:status rdf:resource="http://inspire.ec.europa.eu/registry/status/valid"/>
   </rdf:Description>

@@ -1,0 +1,668 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.w3.org/ns/adms#> .
+@prefix ns2: <http://purl.org/dc/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme:1> {
+    <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/101> a skos:Concept ;
+        skos:broader <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/100> ;
+        skos:definition "Unter der Auswertungskategorie 'Autobahn und Schnellstraßen' werden alle Straßen und Begleitflächen erfasst, die durch die ASFINAG verwaltet und nicht land- oder forstwirtschaftlich genutzt werden,. Waldinseln bei Autobahnabfahrten sind ausgenommen, sofern sie im Waldlayer erfasst sind. Zu- und Abfahrten sowie Rast- bzw. Mautstätten sind Teil der Autobahn."@de,
+            "The evaluation category 'Motorways and expressways' encompasses all roads and ancillary land managed by ASFINAG that are not used for agriculture or forestry. Wooded patches within motorway junctions are excluded if they are recorded in the forest layer. Access and exit ramps as well as service areas and toll plazas are considered part of the motorway."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
+        skos:notation "101" ;
+        skos:prefLabel "Autobahn und Schnellstraße"@de,
+            "Motorway and expressway"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/102> a skos:Concept ;
+        skos:broader <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/100> ;
+        skos:definition "Diese Kategorie umfasst alle Straßen, die als Landesstraße von den Bundesländern verwaltet werden. Dies inkludiert die früheren Bundestraßen (Landesstraße B) sowie alle Landesstraßen (L)."@de,
+            "This category comprises all roads administered as provincial roads by the federal provinces. This includes former federal highways (provincial road B) as well as all standard provincial roads (L)."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
+        skos:notation "102" ;
+        skos:prefLabel "Landesstraße B und L"@de,
+            "Provincial road B and L"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/103> a skos:Concept ;
+        skos:broader <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/100> ;
+        skos:definition """Die Kategorie '103 – Gemeinde und sonstige Straßen' ist die wohl heterogenste Straßenkategorie. Sie enthält sowohl alle Gemeindestraßen als auch Straßen der inneren Siedlungserschließung, Zu- und Abfahrten, Radwege, und landwirtschaftliche Güterwege.
+Aufgrund der Definition sind Forst- und Almstraßen nicht umfasst. Da es in der GIP keine einheitliche Klassifizierung von Forststraßen gibt, wurde die Identifizierung von Forststraßen durch bundesländerspezifische Abfragen sowie den Waldlayer des BFW vorgenommen. 
+Im landwirtschaftlichen Bereich werden landwirtschaftliche Güterwege immer auch anhand der INVEKOS Schlagabgrenzungen korrigiert. Somit ist sichergestellt, dass keine Straße eine landwirtschaftliche Nutzfläche überlagert."""@de,
+            """The category '103 – Municipal and other roads' is arguably the most heterogeneous road category. It encompasses all municipal roads as well as internal settlement access roads, access and exit ramps, cycle paths, and agricultural access roads (Güterwege).
+By definition, forestry roads and alpine pasture roads are not included. Since there is no uniform classification of forestry roads in the GIP (Graph Integration Platform), forestry roads were identified using federal-state-specific queries as well as the forest layer of the BFW (Federal Research and Training Centre for Forests). 
+In the agricultural sector, agricultural access roads are also systematically adjusted based on INVEKOS (IACS) agricultural parcel boundaries. This ensures that no road overlaps an utilized agricultural area."""@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
+        skos:notation "103" ;
+        skos:prefLabel "Gemeinde- und sonstige Straßen"@de,
+            "Municipal and other roads"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/104> a skos:Concept ;
+        skos:broader <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/100> ;
+        skos:definition "In dieser Kategorie sind alle schienenbezogenen Anlagen der ÖBB sowie der Privatbahnen inklusive der zugehörigen Begleitflächen umfasst. Diese enthalten auch alle Gebäude (Bahnhofsgebäude) und Nebenflächen."@de,
+            "This category encompasses all rail-related facilities of the ÖBB (Austrian Federal Railways) as well as private railways, including associated adjoining land. These also include all buildings (station buildings) and ancillary areas."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
+        skos:notation "104" ;
+        skos:prefLabel "Schiene"@de,
+            "Railway"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/105> a skos:Concept ;
+        skos:broader <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/100> ;
+        skos:definition "Die Auswertungskategorie '105 – Flughafen' enthält alle Flughäfen in Österreich, die im digitalen Landschaftsmodell des BEV eine Flughafenabgrenzung aufweisen. Inkludiert sind alle Gebäude und Bauwerke sowie die Lande-/Startbahnen, Zufahrtswege und Rollwege. Weiters alle Zwischenflächen, die dem Flughafenbetrieb dienen (u.a. auch alle Rasenflächen zwischen den Rollbahnen, sofern sie nicht landwirtschaftlich genutzt werden.)"@de,
+            "The evaluation category '105 – Airport' includes all airports in Austria that have an airport boundary in the BEV Digital Landscape Model. This includes all buildings and structures, as well as runways, access roads, and taxiways. Furthermore, it encompasses all intermediate areas serving airport operations (including all grassy areas between taxiways, provided they are not used for agricultural purposes)."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
+        skos:notation "105" ;
+        skos:prefLabel "Flughafen"@de,
+            "Airport"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/2112> a skos:Concept ;
+        skos:broader <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/211> ;
+        skos:definition "Die 'Wohnnutzung' umfasst alle Flächen, die in den Flächenwidmungsplänen entweder überwiegend als Wohnnutzung oder als gemischte Nutzung (Wohnen und Gewerbe) ausgewiesen sind. Sie enthält sowohl die klassische Einfamilienhaussiedlung wie auch den mehrgeschossigen Wohnbau oder innerstädtische gemischte Wohn- und Geschäftsviertel inklusive begrünter Innenhöfe und Gartenanlagen, sofern diese nicht als eigene Sport-, Freizeit oder Erholungsflächen gewidmet sind."@de,
+            "'Residential use' encompasses all areas designated in zoning plans either predominantly for residential use or for mixed use (residential and commercial). It includes traditional single-family housing developments as well as multi-storey residential housing or inner-city mixed residential and commercial quarters, including green courtyards and garden areas, provided they are not designated as dedicated sports, leisure, or recreational areas."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
+        skos:notation "2112" ;
+        skos:prefLabel "Wohn- und gemischte bauliche Nutzung"@de,
+            "residential and mixed built-up use"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/212> a skos:Concept ;
+        skos:broader <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/210> ;
+        skos:definition "Flächen in der ÖROK-aggregierten Widmungsklasse 2 'gemischte Nutzung' exklusive den Verkehrsflächen aus Modul 10."@de,
+            "Areas in the ÖROK-aggregated zoning category 2 'mixed use' excluding transport areas from Module 10."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
+        skos:notation "212" ;
+        skos:prefLabel "gemischte bauliche Nutzung"@de,
+            "mixed building use"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/213> a skos:Concept ;
+        skos:broader <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/210> ;
+        skos:definition "Die Industrie- und Gewerbeflächen beinhalten sämtliche Siedlungsflächen innerhalb der Baulandwidmung, die nicht landwirtschaftliche genutzt werden oder im Modul Verkehr liegen und die in den aggregierten Flächenwidmungsklassen als Klasse mit 'überwiegend betriebliche Nutzungsform' ausgewiesen sind. Darunter fallen Industrie, Gewerbe- und Geschäftswidmungen, so wie Einkaufzentren, Fachmarktzentren oder Handelseinrichtungen."@de,
+            "Industrial and commercial areas comprise all settlement areas within building land zoning that are not used for agriculture or located within the transport module, and which are designated in the aggregated zoning categories as a class with 'predominantly commercial and industrial use'. This includes industrial, commercial, and business zoning designations, as well as shopping centres, retail parks, or retail facilities."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
+        skos:notation "213" ;
+        skos:prefLabel "betriebliche Nutzung"@de,
+            "commercial and industrial use"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/214> a skos:Concept ;
+        skos:broader <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/210> ;
+        skos:definition "In der Klasse 'sonstige bauliche Nutzung' fallen sämtliche bauliche Widmungen, die nicht in einer der obigen Klassen oder der Widmung 'Freizeit- und Erholungsfläche' bzw. 'Ver-, Entsorgungs- und Abbauflächen' enthalten sind."@de,
+            "The class 'other structural use' includes all structural zoning designations that are not included in any of the above classes or in the designations 'leisure and recreation area' or 'supply, disposal and extraction areas'."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
+        skos:notation "214" ;
+        skos:prefLabel "sonstige bauliche Nutzung"@de,
+            "other structural use"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/215> a skos:Concept ;
+        skos:broader <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/210> ;
+        skos:definition "Landwirtschaftsflächen, die im INVEKOS registriert sind, und innerhalb der Baulandwidmung liegen."@de,
+            "Agricultural areas that are registered in the IACS and are within the building land use."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
+        skos:notation "215" ;
+        skos:prefLabel "Landwirtschaft (INVEKOS) innerhalb BL-FläWi"@de,
+            "Agriculture (IACS) within BL-FläWi"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/216> a skos:Concept ;
+        skos:broader <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/210> ;
+        skos:definition "Waldflächen innerhalb der Baulandwidmung"@de,
+            "Forest areas within the building land use"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
+        skos:notation "216" ;
+        skos:prefLabel "Wald innerhalb BL-FläWi"@de,
+            "Forest within BL-FläWi"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/217> a skos:Concept ;
+        skos:broader <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/210> ;
+        skos:definition "Landwirtschaftsflächen, die zwar nicht im INVEKOS registriert sind, aber aufgrund von Fernerkundungsauswertungen als aktive landwirtschaftliche Flächen identifiziert sind und innerhalb der Baulandwidmung liegen"@de,
+            "Agricultural areas that are not registered in the IACS, but are identified as active agricultural areas on the basis of remote sensing evaluations and are within the building land use"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
+        skos:notation "217" ;
+        skos:prefLabel "LW (nicht INVEKOS) innerhalb BL-FläWi"@de,
+            "LW (not IVEKOS) within BL-FläWi"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/221> a skos:Concept ;
+        skos:broader <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/220> ;
+        skos:definition "keine Auswertungskategorie, nur Erhebungskategorie: Bauwerke (Gebäude) größer als 50m2 nach dem DLM des BEV, die in keinem anderen Modul enthalten sind"@de,
+            "no evaluation category, only survey category: Buildings (buildings) larger than 50m2 according to the DLM of the Bev, which are not included in any other module"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
+        skos:notation "221" ;
+        skos:prefLabel "Gebäude (DLM) außerhalb Baulandwidmung"@de,
+            "Building (DLM) outside building land dedication"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/222> a skos:Concept ;
+        skos:broader <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/220> ;
+        skos:definition "keine Auswertungskategorie, nur Erhebungskategorie: DKM-Nutzungsart 'Gebäudenebenfläche', eingefroren mit dem DKM-Stand 2022"@de,
+            "no evaluation category, only survey category: DKM-use type 'building surface', frozen with the DKM status 2022"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
+        skos:notation "222" ;
+        skos:prefLabel "DKM-Gebäudenebenfläche außerhalb Baulandwidmung"@de,
+            "DKM building surface area outside building land use"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/223> a skos:Concept ;
+        skos:broader <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/220> ;
+        skos:definition "keine Auswertungskategorie, nur Erhebungskategorie: DKM-Nutzugnsarte 'Betriebsfläche', eingefroren mit dem DKM-Stand 2022"@de,
+            "no evaluation category, only survey category: DKM utility type 'operating area', frozen with the DKM status 2022"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
+        skos:notation "223" ;
+        skos:prefLabel "DKM-Betriebsfläche außerhalb Baulandwidmung"@de,
+            "DKM operating area outside building land allocation"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/224> a skos:Concept ;
+        skos:broader <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/220> ;
+        skos:definition "keine Auswertungskategorie, nur Erhebungskategorie: Pufferfläche von 11m rund um Gebäude außerhalb der Flächenwidmung bzw. außerhalb der identifizierten thematischen Flächen des DLMs des BEV"@de,
+            "no evaluation category, only survey category: buffer area of 11m around buildings outside the zoning or outside the identified thematic areas of the DLM of the Bev"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
+        skos:notation "224" ;
+        skos:prefLabel "Pufferfläche (11m) außerhalb Baulandwidmung"@de,
+            "Buffer area (11m) outside land use"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/225> a skos:Concept ;
+        skos:broader <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/220> ;
+        skos:definition "keine Auswertungskategorie, nur Erhebungskategorie: DKM-Nutzungsart 'Garten', wenn dieser Garten unmittelbar an ein Gebäude angrenzt und die gleiche Einlagezahl in der DKM aufweist"@de,
+            "no evaluation category, only survey category: DKM type of use 'garden', if this garden directly adjoins a building and has the same number of deposits in the DKM"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
+        skos:notation "225" ;
+        skos:prefLabel "DKM-Garten (an Gebäude grenzend mit gleicher EZ) außerhalb Baulandwidmung"@de,
+            "DKM garden (adjacent to buildings with the same single room) outside of building land use"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/301> a skos:Concept ;
+        skos:broader <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/300> ;
+        skos:definition "keine Auswertungskategorie, nur Erhebungskategorie: Bauwerke (Gebäude) nach dem DLM des BEV, die innerhalb der generalisierten ÖROK-Flächenwidmungskategorie 5 'Freizeit- und Erholung' bzw. innerhalb einer der DLM-Klassen, die zu diesem Modul gehören, liegen"@de,
+            "no evaluation category, only survey category: Buildings (buildings) according to the DLM of the Bev that are within the generalized ÖROK area dedication category 5 'Leisure and recreation' or within one of the DLM classes that belong to this module"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
+        skos:notation "301" ;
+        skos:prefLabel "Gebäude in Freizeit (DLM)"@de,
+            "Buildings in Leisure (DLM)"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/302> a skos:Concept ;
+        skos:broader <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/300> ;
+        skos:definition "keine Auswertungskategorie, nur Erhebungskategorie: Ver- und Entsorgungsflächen nach dem DLM des BEV (Kategorie 3200 Freizeit)"@de,
+            "no evaluation category, only survey category: supply and disposal areas according to the DLM of the Bev (category 3200 leisure time)"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
+        skos:notation "302" ;
+        skos:prefLabel "DLM-Gebietsnutzung Freizeit"@de,
+            "DLM Area Usage Leisure"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/303> a skos:Concept ;
+        skos:broader <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/300> ;
+        skos:definition "keine Auswertungskategorie, nur Erhebungskategorie: DKM-Freizeitflächen, eingefroren mit dem DKM-Stand 2022"@de,
+            "no evaluation category, only survey category: DKM leisure areas, frozen with the DKM status 2022"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
+        skos:notation "303" ;
+        skos:prefLabel "DKM-Freizeitflächen"@de,
+            "DKM leisure areas"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/311> a skos:Concept ;
+        skos:broader <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/300> ;
+        skos:definition "keine Auswertungskategorie, nur Erhebungskategorie: Flächen, die innerhalb der aggregierten ÖROK-Widmungskategorie 5 'Freizeit- und Erholung' liegen"@de,
+            "no evaluation category, only survey category: Areas that lie within the aggregated ÖROK dedication category 5 'Leisure and recreation'"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
+        skos:notation "311" ;
+        skos:prefLabel "FläWi-Kat 5 Freizeit/Erholung"@de,
+            "FläWi-Kat 5 Leisure/Recreation"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/395> a skos:Concept ;
+        skos:broader <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/300> ;
+        skos:definition "Landwirtschaftsflächen, die im INVEKOS registriert sind, und innerhalb der aggregierten ÖROK-Widmungskategorie 5 'Freizeit und Erholung' liegen"@de,
+            "Agricultural land registered in the IACS and within the aggregated ÖROK-dedication category 5 'Leisure and recreation'"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
+        skos:notation "395" ;
+        skos:prefLabel "Landwirtschaft (INVEKOS) innerhalb F und E"@de,
+            "Agriculture (IACS) within R and D"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/396> a skos:Concept ;
+        skos:broader <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/300> ;
+        skos:definition "Waldflächen innerhalb der aggregierten ÖROK-Widmungskategorie 5 'Freizeit und Erholung' liegen"@de,
+            "Forest areas within the aggregated ÖROK-dedication category 5 'Leisure and recreation' lie within it"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
+        skos:notation "396" ;
+        skos:prefLabel "Wald innerhalb F und E"@de,
+            "Forest within R and D"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/397> a skos:Concept ;
+        skos:broader <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/300> ;
+        skos:definition "Landwirtschaftsflächen, die zwar nicht im INVEKOS registriert sind, aber aufgrund von Fernerkundungsauswertungen als aktive landwirtschaftliche Flächen identifiziert sind und innerhalb der aggregierten ÖROK-Widmungskategorie 5 'Freiziet und Erholung' liegen"@de,
+            "Agricultural areas that are not registered in the IACS, but are identified as active agricultural areas on the basis of remote sensing evaluations and are within the aggregated ÖROK dedication category 5 'Leisure and recreation'"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
+        skos:notation "397" ;
+        skos:prefLabel "LW (nicht INVEKOS) innerhalb F und E"@de,
+            "LW (not IACS) within R and D"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/411> a skos:Concept ;
+        skos:broader <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/410> ;
+        skos:definition "keine Auswertungskategorie, nur Erhebungskategorie: Bauwerke (Gebäude) innerhalb der generalisierten ÖROK-Flächenwidmungskategorie 6 'Ver- und Entsorgung' bzw. innerhalb einer der DLM-Klassen, die zu diesem Modul gehören, liegen"@de,
+            "no evaluation category, only survey category: Buildings (buildings) within the generalised ÖROK area dedication category 6 'Supply and disposal' or within one of the DLM classes belonging to this module"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
+        skos:notation "411" ;
+        skos:prefLabel "Gebäude in V und E (DLM)"@de,
+            "Buildings in V and E (DLM)"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/412> a skos:Concept ;
+        skos:broader <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/410> ;
+        skos:definition "keine Auswertungskategorie, nur Erhebungskategorie: Ver- und Entsorgungsflächen nach dem DLM des BEV (Kategorie 3401 Kläranlage)"@de,
+            "no evaluation category, only survey category: supply and disposal areas according to the DLM of the Bev (category 3401 sewage treatment plant)"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
+        skos:notation "412" ;
+        skos:prefLabel "DLM-Ver/Entsorgung (exkl. Abbaufl.)"@de,
+            "DLM supply/disposal (excl. dismantling)"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/413> a skos:Concept ;
+        skos:broader <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/410> ;
+        skos:definition "keine Auswertungskategorie, nur Erhebungskategorie: Ver- und Entsorgungsflächen nach dem DLM des BEV (Kategorie 2801 Strommasten)"@de,
+            "no evaluation category, only survey category: supply and disposal areas according to the DLM of the Bev (category 2801 power poles)"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
+        skos:notation "413" ;
+        skos:prefLabel "DLM - Strommasten"@de,
+            "DLM - Power poles"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/414> a skos:Concept ;
+        skos:broader <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/410> ;
+        skos:definition "keine Auswertungskategorie, nur Erhebungskategorie: Abbauflächen, die einzig durch die aggregierte ÖROK-Flächenwidmungskategorie 6 'Ver- und Entsorgung' identifizierbar sind."@de,
+            "no evaluation category, only survey category: mining areas that can only be identified by the aggregated ÖROK area dedication category 6 'Supply and disposal'."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
+        skos:notation "414" ;
+        skos:prefLabel "FLäWi-Kat 6 Ver/Entsorgung"@de,
+            "FLäWi Cat 6 Supply/Disposal"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/415> a skos:Concept ;
+        skos:broader <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/410> ;
+        skos:definition "keine Auswertungskategorie, nur Erhebungskategorie: DKM-Betriebsflächen, die Kraftwerke (Laufkraftwerke und chalorische Kraftwerke) repärsentieren"@de,
+            "no evaluation category, only survey category: DKM operating areas that repaired power plants (run-of-river power plants and chaloric power plants)"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
+        skos:notation "415" ;
+        skos:prefLabel "DKM Betrieb/Kraftwerk (nur 2022)"@de,
+            "DKM Operation/Power Plant (2022 only)"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/422> a skos:Concept ;
+        skos:broader <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/420> ;
+        skos:definition "keine Auswertungskategorie, nur Erhebungskategorie: Abbauflächen nach dem DLM des BEV (Kategorie 3411)"@de,
+            "no evaluation category, only survey category: mining areas according to the DLM of the Bev (category 3411)"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
+        skos:notation "422" ;
+        skos:prefLabel "DLM Abbauflächen"@de,
+            "DLM mining areas"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/424> a skos:Concept ;
+        skos:broader <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/420> ;
+        skos:definition "keine Auswertungskategorie, nur Erhebungskategorie: Abbauflächen, die einzig durch die aggregierte ÖROK-Flächenwidmungskategorie 7 'Abbauflächen' identifizierbar sind."@de,
+            "no evaluation category, only survey category: Mining areas that can only be identified by the aggregated ÖROK area dedication category 7 'Mining areas'."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
+        skos:notation "424" ;
+        skos:prefLabel "FLäWi-Kat 7 Abbauflächen"@de,
+            "FLäWi-Cat 7 Mining areas"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/425> a skos:Concept ;
+        skos:broader <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/420> ;
+        skos:definition "keine Auswertungskategorie, nur Erhebungskategorie: DKM-Abbauflächen, Halden oder Deponien"@de,
+            "no evaluation category, only survey category: DKM mining areas, dumps or landfills"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
+        skos:notation "425" ;
+        skos:prefLabel "DKM Abbaufläche (nur 2022)"@de,
+            "DKM Mining Area (2022 only)"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/495> a skos:Concept ;
+        skos:broader <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/400> ;
+        skos:definition "Landwirtschaftsflächen, die im INVEKOS registriert sind, und innerhalb der aggregierten ÖROK-Widmungskategorie 6 und 7 'Ver- und Entsorgung' bzw. 'Abbauflächen' liegen"@de,
+            "Agricultural areas registered in the IACS and within the aggregated ÖROK dedication category 6 and 7 'Supply and disposal' or 'Mining areas'"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
+        skos:notation "495" ;
+        skos:prefLabel "Landwirtschaft (INVEKOS) innerhalb V und E, Abbauflächen"@de,
+            "Agriculture (IACS) within V and E, mining areas"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/496> a skos:Concept ;
+        skos:broader <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/400> ;
+        skos:definition "Waldflächen innerhalb der aggregierten ÖROK-Widmungskategorie 6 und 7 'Ver- und Entsorgung' bzw. 'Abbauflächen' liegen"@de,
+            "Forest areas within the aggregated ÖROK dedication category 6 and 7 'Supply and disposal' or 'Mining areas'"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
+        skos:notation "496" ;
+        skos:prefLabel "Wald innerhalb V und E, Abbauflächen"@de,
+            "Forest within V and E, mining areas"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/497> a skos:Concept ;
+        skos:broader <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/400> ;
+        skos:definition "Landwirtschaftsflächen, die zwar nicht im INVEKOS registriert sind, aber aufgrund von Fernerkundungsauswertungen als aktive landwirtschaftliche Flächen identifiziert sind und ÖROK-Widmungskategorie 6 und 7 'Ver- und Entsorgung' bzw. 'Abbauflächen' liegen"@de,
+            "Agricultural areas that are not registered in the IACS, but are identified as active agricultural areas based on remote sensing evaluations and ÖROK dedication categories 6 and 7 'Supply and disposal' or 'Mining areas'"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
+        skos:notation "497" ;
+        skos:prefLabel "LW (nicht INVEKOS) innerhalb V-E, Abbauflächen"@de,
+            "LW (not IACS) within V-E, mining areas"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/511> a skos:Concept ;
+        skos:broader <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/500> ;
+        skos:definition """Die Freiflächen-PV Anlagen repräsentieren dabei die vielfach gezäunte Gesamtfläche der Anlage. Diese Klasse ist bezüglich ihrer Vollständigkeit mit den vergleichsweise größten Unsicherheiten behaftet, da es in Österreich kein verfügbares zentrales Inventar aller PV-Anlagen gibt bzw. diese aus Datenschutzgründen für die flächenhafte Auswertung nicht zur Verfügung stehen.
+Sofern im INVEKOS registrierte Schläge zwischen den PV-Modulen vorhanden sind, werden diese aus der Flächeninanspruchnahme ausgespart."""@de,
+            """The ground-mounted PV systems represent the multiple fenced total area of the system. This class is subject to the greatest uncertainties with regard to its completeness, since there is no available central inventory of all PV systems in Austria or they are not available for extensive evaluation for data protection reasons.
+If there are impacts between the PV modules registered in the IACS, these are excluded from the area claim a"""@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
+        skos:notation "511" ;
+        skos:prefLabel "Freiflächen PV-Anlage"@de,
+            "Open space PV system"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/520> a skos:Concept ;
+        skos:broader <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/500> ;
+        skos:definition "Die Windkraftanlagen enthalten neben dem konkreten Standort des Windrades auch die Betriebszufahrten, sofern diese nicht ohnehin schon im Verkehrsmodul erfasst sind. Da die Windkraftanlagen in der Luftfahrthindernisdatenbank registriert sind, sind Ausmaß, Verteilung und Aktualität dieser Anlagen sehr gut bekannt und genau wiedergegeben. Da Windkraftanlagen zumeist über früher landschaftlich genutzten Gebieten errichtet werden, kann über eine 'Negativmaske' der INVEKOS-Flächen eine sehr genaue Flächenabgrenzung der Windkraftanlagen inklusive Zufahrten erfolgen."@de,
+            "In addition to the specific location of the wind turbine, the wind turbines also contain the service entrances, unless these are already recorded in the traffic module anyway. Since the wind turbines are registered in the aviation obstacle database, the size, distribution and timeliness of these turbines are very well known and accurately reproduced. Since wind turbines are usually built over formerly landscaped areas, a very accurate"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
+        skos:notation "520" ;
+        skos:prefLabel "Windkraftanlage"@de,
+            "Wind turbine:"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/6100> a skos:Concept ;
+        skos:broader <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/600> ;
+        skos:definition "landwirtschaftliche genutzte Flächen (sowohl aus INVEKOS als auch aus Zusatzauswertungen, innerhalb und außerhalb der Flächenwidmung)"@de,
+            "agricultural land (both from IACS and from additional evaluations, within and outside land allocation)"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
+        skos:notation "6100" ;
+        skos:prefLabel "Landwirtschaft-Gesamt"@de,
+            "Agriculture-Total"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/611> a skos:Concept ;
+        skos:broader <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/600> ;
+        skos:definition "Landwirtschaftsflächen, die im INVEKOS registriert sind, und außerhalb des Verkehrs und der aggregierten ÖROK-Widmungsklassen 1-7 liegen"@de,
+            "Agricultural land registered in the IACS and outside traffic and the aggregated ÖROK dedication classes 1-7"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
+        skos:notation "611" ;
+        skos:prefLabel "LW-INVEKOS in der Freifläche"@de,
+            "LW-INVEKOS in the open area"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/612> a skos:Concept ;
+        skos:broader <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/600> ;
+        skos:definition "Landwirtschaftsflächen, die im nicht im INVEKOS registriert sind, und außerhalb des Verkehrs sowie außerhalb der aggregierten ÖROK-Widmungsklassen 1-7 liegen"@de,
+            "Agricultural land that is not registered in the IACS and is out of traffic and outside the aggregated ÖROK dedication classes 1-7"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
+        skos:notation "612" ;
+        skos:prefLabel "LW-ausserhalb INVEKOS in der Freifläche"@de,
+            "LW-outside IACS in the open area"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/6200> a skos:Concept ;
+        ns2:termsdescription "Represents the aggregate of all forested land, encompassing both managed forestry areas and natural forest cover independent of specific administrative zoning status."@en ;
+        skos:broader <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/620> ;
+        skos:definition "Waldflächen innerhalb und außerhalb der Flächenwidmung"@de,
+            "Forest areas within and outside of designated land-use zones."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
+        skos:notation "6200" ;
+        skos:prefLabel "Wald-Gesamt"@de,
+            "Total forest"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/6340> a skos:Concept ;
+        skos:broader <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/630> ;
+        skos:definition "Andere Freiflächen, die nicht vorrangig Landwirtschaft oder Wald sind"@de,
+            "Other open spaces that are not primarily agriculture or forest"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
+        skos:notation "6340" ;
+        skos:prefLabel "Freifläche-Sonstige"@de,
+            "Open space-other"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/641> a skos:Concept ;
+        skos:broader <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/600> ;
+        skos:definition "nicht näher definierte Freiflächen"@de,
+            "open spaces not defined in more detail"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
+        skos:notation "641" ;
+        skos:prefLabel "Freiflächen im engeren Sinn"@de,
+            "Open spaces in the narrower sense"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/642> a skos:Concept ;
+        skos:broader <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/600> ;
+        skos:definition "Freiflächen, die jedoch in der DKM als Verkehrsfläche aufscheinen"@de,
+            "Open spaces, which, however, appear in the DKM as a traffic area"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
+        skos:notation "642" ;
+        skos:prefLabel "FI-Verkehrsflächen aus DKM in der Freifläche"@de,
+            "FI traffic areas from DKM in the open area"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/643> a skos:Concept ;
+        skos:broader <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/600> ;
+        skos:definition "Freiflächen, die jedoch in der DKM im alten Monitoring vor 2022 noch der Flächeninanspruchnahme zugerechnet wurden (z.B.: Gebäude, Gärten, etc.)"@de,
+            "Open spaces that, however, were still allocated to land use in the DKM in the old monitoring before 2022 (e.g.: buildings, gardens, etc.)"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
+        skos:notation "643" ;
+        skos:prefLabel "FI- sonstige alte FI-Flächen aus DKM in der Freifläche"@de,
+            "FI- other old FI areas from DKM in the open area"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/211> a skos:Concept ;
+        skos:broader <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/210> ;
+        skos:definition "Flächen in der ÖROK-aggregierten Widmungsklasse 1 'Wohnnutzung' exklusive den Verkehrsflächen aus Modul 10."@de,
+            "Areas in the ÖROK-aggregated zoning category 1 'residential use' excluding transport areas from module 10."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
+        skos:narrower <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/2112> ;
+        skos:notation "211" ;
+        skos:prefLabel "Wohnnutzung"@de,
+            "residential use"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/620> a skos:Concept ;
+        skos:broader <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/600> ;
+        skos:definition "Landwirtschaftsflächen, die im INVEKOS registriert sind, und außerhalb des Verkehrs und der aggregierten ÖROK-Widmungsklassen 1-7 liegen"@de,
+            "Agricultural land registered in the IACS and outside traffic and the aggregated ÖROK dedication classes 1-7"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
+        skos:narrower <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/6200> ;
+        skos:notation "620" ;
+        skos:prefLabel "Wald-Freifläche"@de,
+            "Forest open space"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/630> a skos:Concept ;
+        skos:broader <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/600> ;
+        skos:definition "Gewässerflächen"@de,
+            "Hydrographic feature covering inland water bodies and watercourses."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
+        skos:narrower <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/6340> ;
+        skos:notation "630" ;
+        skos:prefLabel "Gewässer"@de,
+            "water body"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/500> a skos:Concept ;
+        skos:definition "Das Modul 50 enthält die Freiflächen-Photovoltaikanlagen sowie die Windkraftanlagen."@de,
+            "The module 50 contains the ground-mounted photovoltaic systems as well as the wind turbines."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
+        skos:narrower <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/511>,
+            <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/520> ;
+        skos:notation "500" ;
+        skos:prefLabel "Freiflächen-PV- und Windkraftanlagen (Modul 50)"@de,
+            "Open-area PV and wind turbines (module 50)"@en ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/420> a skos:Concept ;
+        skos:broader <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/400> ;
+        skos:definition """'Abbauflächen', 'Halden' und 'Deponien' sind Flächen, die zur oberirdischen Gewinnung von Rohstoffen (z.B. Sandgrube, Lehmgrube, Schottergrube, Steinbruch, Torfstich) oder zur dauerhaften Ablagerung von Altstoffen dienen (Definition: BEV Nutzungsarten).
+Im ÖROK-Monitoring werden diese Flächen einerseits durch die Gebietsnutzung des digitalen Landschaftsmodells (Kategorie 3411 Abbau-Aufbereitugnsflächen) sowie durch die Kategorie 7 'Abbauflächen' der aggregierten Flächenwidmung gebildet."""@de,
+            """'Mining areas', 'dumps' and 'landfills' are areas used for the above-ground extraction of raw materials (e.g. sand pit, clay pit, gravel pit, quarry, peat cut) or for the permanent deposition of waste materials (definition: Bev types of use).
+In ÖROK monitoring, these areas are formed on the one hand by the area utilization of the digital landscape model (category 3411 mining processing areas) and by category 7 'mining areas' of the aggregated land use."""@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
+        skos:narrower <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/422>,
+            <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/424>,
+            <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/425> ;
+        skos:notation "420" ;
+        skos:prefLabel "Abbaufläche (Modul 42)"@de,
+            "Mining area (module 42)"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/100> a skos:Concept ;
+        skos:definition "Verkehrsflächen umfassen alle Straßen, befestigte befahrbare Wege (z.B. landwirtschaftliche Güterwege) mit Ausnahme der Forst- und Almstraßen, Schienen sowie die funktional zugehörigen Flächen für den ruhenden Verkehr (z.B. Parkplätze, Bahnanlagen)."@de,
+            "Transport areas comprise all roads, paved drivable tracks (e.g. agricultural service roads) with the exception of forest and alpine roads, railways, as well as functionally associated areas for stationary traffic (e.g. parking facilities, railway installations)."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
+        skos:narrower <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/101>,
+            <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/102>,
+            <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/103>,
+            <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/104>,
+            <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/105> ;
+        skos:notation "100" ;
+        skos:prefLabel "Verkehr"@de,
+            "transport"@en ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/220> a skos:Concept ;
+        skos:definition """Die Siedlungsflächen außerhalb des gewidmeten Baulandes umfassen Gebäude außerhalb der Baulandwidmung und ihre funktional zugehörigen Flächen (Gebäudenebenflächen, direkt angrenzende Gärten, DKM-Betriebsflächen, Pufferflächen), wie zum Beispiel Häuser oder Streusiedlungen im Grünland, Bauernhöfe und weitere landwirtschaftliche Gebäude mit ihren Nebenflächen.
+In dieser Klasse werden alle Gebäude erfasst, die weder im Verkehrsmodul noch in einer der aggregierten Flächenwidmungsklassen liegen. Die funktional zugeordneten Gärten werden mittels der DKM-Nutzungsart 'Hausgärten' erfasst, die entweder am gleichen Grundstück liegen oder auf benachbarten Grundstücken mit der gleichen Einlagezahl. Auch Betriebsflächen oder Gebäudenebenflächen werden gleichermaßen zugeordnet. Sofern keine direkt angrenzenden funktionalen Flächen in der DKM vorhanden sind, werden alle Flächen bis zu 11m rund um die Gebäude als zugehörige Flächen mitberechnet."""@de,
+            """The settlement areas outside the dedicated building land include buildings outside the building land use and their functionally associated areas (building contiguous areas, directly adjacent gardens, DKM operating areas, buffer areas), such as houses or scattered settlements in grassland, farms and other agricultural buildings with their ancillary areas.
+In this class, all buildings are recorded that are neither in the traffic module nor in one of the aggregated zoning classes."""@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
+        skos:narrower <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/221>,
+            <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/222>,
+            <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/223>,
+            <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/224>,
+            <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/225> ;
+        skos:notation "220" ;
+        skos:prefLabel "Siedlungsfläche außerhalb Baulandwidmung (Modul 22)"@de,
+            "Settlement area outside building land (module 22)"@en ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/400> a skos:Concept ;
+        skos:definition """Ver- und Entsorgungs- und Abbauflächen bestehen aus Betriebsflächen von Ver- und Entsorgungsinfrastruktur, wie Kläranlagen, Umspannwerken, Kraftwerken, Strommasten sowie Deponien und Abbauflächen, soweit sie nicht in den Siedlungsflächen miterfasst sind.
+Alle landwirtschaftlichen Flächen, Waldflächen und Gewässer werden – wie auch in allen anderen Klassen – von der Flächeninanspruchnahme ausgenommen."""@de,
+            """Supply and disposal and mining areas consist of operating areas of supply and disposal infrastructure, such as sewage treatment plants, substations, power plants, power poles, as well as landfills and mining areas, insofar as they are not included in the settlement areas.
+As in all other classes, all agricultural land, forest land and water are excluded from land use."""@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
+        skos:narrower <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/410>,
+            <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/420>,
+            <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/495>,
+            <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/496>,
+            <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/497> ;
+        skos:notation "400" ;
+        skos:prefLabel "Ver-, Entsorgungs- und Abbauflächen (Modul 40)"@de,
+            "Supply, disposal and mining areas (module 40)"@en ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/410> a skos:Concept ;
+        skos:broader <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/400> ;
+        skos:definition """Unter die Ver- und Entsorgungsflächen fallen private und öffentliche Infrastrukturen zur Versorgung mit Strom (Kraftwerke, Umspannwerke), Wasser, Energie (Raffinerie, Strommasten) sowie Infrastrukturen der Entsorgung wie Kläranlagen, Müllverbrennungsanlagen u. ä. 
+Der Staubereich von Lauf- oder Speicherkraftwerken wird nicht zur Flächeninanspruchnahme gezählt, da diese Flächen im Gewässerlayer enthalten sind."""@de,
+            """The supply and disposal areas include private and public infrastructures for the supply of electricity (power plants, substations), water, energy (refinery, power poles) as well as disposal infrastructures such as sewage treatment plants, waste incineration plants, etc. 
+The congestion area of run-of-river or storage power plants is not included in the area requirement, as these areas are contained in the body of water."""@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
+        skos:narrower <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/411>,
+            <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/412>,
+            <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/413>,
+            <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/414>,
+            <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/415> ;
+        skos:notation "410" ;
+        skos:prefLabel "Ver- und Entsorgung (Modul 41)"@de,
+            "Supply and disposal (module 41)"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/210> a skos:Concept ;
+        skos:definition """Diese 	Siedlungsflächen innerhalb des gewidmeten Baulandes bestehen aus bebauten, teilweise bebauten sowie unbebauten Grundstücken im gewidmeten Bauland, sofern diese nicht aktiv landwirtschaftlich genutzt oder bewaldet sind. Es erfolgt eine Untergliederung der Inanspruchnahme nach drei Hauptnutzungen anhand der aggregierten Flächenwidmungskategorien (Wohnnutzung, betriebliche Nutzung, sonstige bauliche Nutzungen).
+Verkehrsflächen werden im Verkehrsmodul berücksichtigt, sofern Verkehrsflächen im Verkehrsmodul erfasst sind, werden sie einheitlich vom Modul 'Siedlungsfläche' ausgenommen. Die Verkehrswege der inneren Erschließung oder größere Parkflächen für den ruhenden Verkehr können je nach Bundesland noch sehr unterschiedlich in der Flächenwidmung erfasst sein. Daher ist eine standardisierte Erfassung als Verkehrsfläche im Rahmen des österreichweiten Monitorings erforderlich."""@de,
+            "These settlement areas within the designated building land consist of developed, partially developed, and undeveloped parcels of land within the designated building land, provided that they are not actively used for agricultural purposes or forested. Land use is subdivided into three main categories based on the aggregated land-use designation categories (residential use, commercial use, other built-up uses). Transportation areas are accounted for in the transportation module. If transportation areas are recorded in the transportation module, they are uniformly excluded from the “Settlement Area” module. Internal access roads or larger parking areas for stationary traffic may still be recorded very differently in land-use designations depending on the federal state. Therefore, standardized recording as transportation areas is necessary within the framework of Austria-wide monitoring."@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
+        skos:narrower <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/211>,
+            <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/212>,
+            <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/213>,
+            <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/214>,
+            <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/215>,
+            <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/216>,
+            <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/217> ;
+        skos:notation "210" ;
+        skos:prefLabel "Siedlungsfläche innerhalb Baulandwidmung (Modul 21)"@de,
+            "Siedlungsfläche innerhalb Baulandwidmung (Modul 21)"@en ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/300> a skos:Concept ;
+        skos:definition """Das Module 30 enthält sämtliche Freizeit- und Erholungsflächen, die sich außerhalb der Baulandwidmung befinden, wie Golfplätze, Bäder, Sportplätze, Stadien, Campingplätze, Parkanlagen, Tierparks oder Friedhöfe. 
+Skipisten werden hier nicht erfasst, da sie Großteils auch landwirtschaftlich genutzt werden. Alle landwirtschaftlichen Flächen, Waldflächen und Gewässer werden – wie auch in allen anderen Klassen – von der Flächeninanspruchnahme ausgenommen. Als Beispiel dient der Wiener Prater, der prinzipiell als Erholungsfläche zur Verfügung steht, aber die geschlossenen Waldflächen zählen nicht zur Flächeninanspruchnahme, da sie dem Forstgesetz unterliegen und somit der Landnutzung 'Wald' zuzurechnen sind."""@de,
+            """Module 30 contains all recreational and recreational areas that are located outside the building site, such as golf courses, baths, sports fields, stadiums, campsites, parks, animal parks or cemeteries. 
+Ski slopes are not included here, as they are also largely used for agricultural purposes. As in all other classes, all agricultural land, forest land and water are excluded from land use. An example is the Viennese Prater, which"""@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
+        skos:narrower <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/301>,
+            <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/302>,
+            <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/303>,
+            <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/311>,
+            <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/395>,
+            <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/396>,
+            <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/397> ;
+        skos:notation "300" ;
+        skos:prefLabel "Freizeit und Erholung (Modul 30)"@de,
+            "Leisure and Recreation (Module 30)"@en ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/600> a skos:Concept ;
+        skos:definition "Freiflächen, die nicht zur Flächeninanspruchnahme zählen"@de,
+            "Open spaces that do not count as land use"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
+        skos:narrower <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/6100>,
+            <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/611>,
+            <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/612>,
+            <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/620>,
+            <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/630>,
+            <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/641>,
+            <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/642>,
+            <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/643> ;
+        skos:notation "600" ;
+        skos:prefLabel "Freiflächen (Modul 60)"@de,
+            "Open spaces (module 60)"@en ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> a skos:ConceptScheme ;
+        dcterms:conformsTo <http://inspire.ec.europa.eu/applicationschema/lunom> ;
+        dcterms:created "2026-11-06T14:30:11+00:00"^^xsd:dateTime ;
+        dcterms:description "Codeliste zur Flächeninanspruchnahme in Österreich"@de,
+            "Codelist on Land Use Consumption"@en ;
+        dcterms:publisher <https://registry.inspire.gv.at/dataprovider/0008> ;
+        dcterms:subject <http://inspire.ec.europa.eu/theme/hb> ;
+        dcterms:title "Flächeninanspruchnahme"@de,
+            "Land Use Consumption"@en ;
+        dcterms:type <http://inspire.ec.europa.eu/codelist/LocalNameCodeValue> ;
+        owl:versionInfo "1.0.0" ;
+        skos:hasTopConcept <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/100>,
+            <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/210>,
+            <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/220>,
+            <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/300>,
+            <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/400>,
+            <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/500>,
+            <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/600> ;
+        skos:scopeNote "INSPIRE extensibility: open, internal by value"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+}
+

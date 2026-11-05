@@ -64,6 +64,7 @@
             <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330>,
             <https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt>,
             <https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe>,
+            <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme>,
             <https://registry.inspire.gv.at/codelist/specialisedZoneType>,
             <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk> ;
         skos:definition "Website: https://www.umweltbundesamt.at/"@de ;
@@ -454,7 +455,7 @@
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/dataprovider> a skos:ConceptScheme ;
-        dcterms:created "2025-10-16T19:38:29.926000+00:00"^^xsd:dateTime ;
+        dcterms:created "2026-11-06T19:38:29.926000+00:00"^^xsd:dateTime ;
         dcterms:description "Das österreichische Geodatenstellenregister enthält die INSPIRE Datenanbieter."@de,
             "The Austrian data provider register contains the contributing data providers."@en ;
         dcterms:title "INSPIRE Datenanbieter"@de,
