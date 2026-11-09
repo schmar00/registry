@@ -1,6 +1,5 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix ns1: <http://www.w3.org/ns/adms#> .
-@prefix ns2: <http://purl.org/dc/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -379,21 +378,11 @@ If there are impacts between the PV modules registered in the IACS, these are ex
         skos:inScheme <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
         skos:notation "520" ;
         skos:prefLabel "Windkraftanlage"@de,
-            "Wind turbine:"@en ;
-        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
-
-    <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/6100> a skos:Concept ;
-        skos:broader <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/600> ;
-        skos:definition "landwirtschaftliche genutzte Flächen (sowohl aus INVEKOS als auch aus Zusatzauswertungen, innerhalb und außerhalb der Flächenwidmung)"@de,
-            "agricultural land (both from IACS and from additional evaluations, within and outside land allocation)"@en ;
-        skos:inScheme <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
-        skos:notation "6100" ;
-        skos:prefLabel "Landwirtschaft-Gesamt"@de,
-            "Agriculture-Total"@en ;
+            "Wind turbine"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/611> a skos:Concept ;
-        skos:broader <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/600> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/610> ;
         skos:definition "Landwirtschaftsflächen, die im INVEKOS registriert sind, und außerhalb des Verkehrs und der aggregierten ÖROK-Widmungsklassen 1-7 liegen"@de,
             "Agricultural land registered in the IACS and outside traffic and the aggregated ÖROK dedication classes 1-7"@en ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
@@ -403,7 +392,7 @@ If there are impacts between the PV modules registered in the IACS, these are ex
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/612> a skos:Concept ;
-        skos:broader <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/600> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/610> ;
         skos:definition "Landwirtschaftsflächen, die im nicht im INVEKOS registriert sind, und außerhalb des Verkehrs sowie außerhalb der aggregierten ÖROK-Widmungsklassen 1-7 liegen"@de,
             "Agricultural land that is not registered in the IACS and is out of traffic and outside the aggregated ÖROK dedication classes 1-7"@en ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
@@ -412,29 +401,29 @@ If there are impacts between the PV modules registered in the IACS, these are ex
             "LW-outside IACS in the open area"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
-    <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/6200> a skos:Concept ;
-        ns2:termsdescription "Represents the aggregate of all forested land, encompassing both managed forestry areas and natural forest cover independent of specific administrative zoning status."@en ;
-        skos:broader <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/620> ;
+    <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/620> a skos:Concept ;
+        dcterms:description "Represents the aggregate of all forested land, encompassing both managed forestry areas and natural forest cover independent of specific administrative zoning status."@en ;
+        skos:broader <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/600> ;
         skos:definition "Waldflächen innerhalb und außerhalb der Flächenwidmung"@de,
             "Forest areas within and outside of designated land-use zones."@en ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
-        skos:notation "6200" ;
-        skos:prefLabel "Wald-Gesamt"@de,
-            "Total forest"@en ;
+        skos:notation "620" ;
+        skos:prefLabel "Wald-Freifläche"@de,
+            "Forest open space"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
-    <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/6340> a skos:Concept ;
-        skos:broader <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/630> ;
-        skos:definition "Andere Freiflächen, die nicht vorrangig Landwirtschaft oder Wald sind"@de,
-            "Other open spaces that are not primarily agriculture or forest"@en ;
+    <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/630> a skos:Concept ;
+        skos:broader <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/600> ;
+        skos:definition "Gewässerflächen"@de,
+            "Hydrographic feature covering inland water bodies and watercourses."@en ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
-        skos:notation "6340" ;
-        skos:prefLabel "Freifläche-Sonstige"@de,
-            "Open space-other"@en ;
+        skos:notation "630" ;
+        skos:prefLabel "Gewässer"@de,
+            "water body"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/641> a skos:Concept ;
-        skos:broader <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/600> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/640> ;
         skos:definition "nicht näher definierte Freiflächen"@de,
             "open spaces not defined in more detail"@en ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
@@ -444,7 +433,7 @@ If there are impacts between the PV modules registered in the IACS, these are ex
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/642> a skos:Concept ;
-        skos:broader <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/600> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/640> ;
         skos:definition "Freiflächen, die jedoch in der DKM als Verkehrsfläche aufscheinen"@de,
             "Open spaces, which, however, appear in the DKM as a traffic area"@en ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
@@ -454,7 +443,7 @@ If there are impacts between the PV modules registered in the IACS, these are ex
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/643> a skos:Concept ;
-        skos:broader <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/600> ;
+        skos:broader <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/640> ;
         skos:definition "Freiflächen, die jedoch in der DKM im alten Monitoring vor 2022 noch der Flächeninanspruchnahme zugerechnet wurden (z.B.: Gebäude, Gärten, etc.)"@de,
             "Open spaces that, however, were still allocated to land use in the DKM in the old monitoring before 2022 (e.g.: buildings, gardens, etc.)"@en ;
         skos:inScheme <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
@@ -474,28 +463,6 @@ If there are impacts between the PV modules registered in the IACS, these are ex
             "residential use"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
-    <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/620> a skos:Concept ;
-        skos:broader <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/600> ;
-        skos:definition "Landwirtschaftsflächen, die im INVEKOS registriert sind, und außerhalb des Verkehrs und der aggregierten ÖROK-Widmungsklassen 1-7 liegen"@de,
-            "Agricultural land registered in the IACS and outside traffic and the aggregated ÖROK dedication classes 1-7"@en ;
-        skos:inScheme <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
-        skos:narrower <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/6200> ;
-        skos:notation "620" ;
-        skos:prefLabel "Wald-Freifläche"@de,
-            "Forest open space"@en ;
-        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
-
-    <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/630> a skos:Concept ;
-        skos:broader <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/600> ;
-        skos:definition "Gewässerflächen"@de,
-            "Hydrographic feature covering inland water bodies and watercourses."@en ;
-        skos:inScheme <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
-        skos:narrower <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/6340> ;
-        skos:notation "630" ;
-        skos:prefLabel "Gewässer"@de,
-            "water body"@en ;
-        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
-
     <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/500> a skos:Concept ;
         skos:definition "Das Modul 50 enthält die Freiflächen-Photovoltaikanlagen sowie die Windkraftanlagen."@de,
             "The module 50 contains the ground-mounted photovoltaic systems as well as the wind turbines."@en ;
@@ -506,6 +473,18 @@ If there are impacts between the PV modules registered in the IACS, these are ex
         skos:prefLabel "Freiflächen-PV- und Windkraftanlagen (Modul 50)"@de,
             "Open-area PV and wind turbines (module 50)"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/610> a skos:Concept ;
+        skos:broader <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/600> ;
+        skos:definition "landwirtschaftliche genutzte Flächen (sowohl aus INVEKOS als auch aus Zusatzauswertungen, innerhalb und außerhalb der Flächenwidmung)"@de,
+            "agricultural land (both from IACS and from additional evaluations, within and outside land allocation)"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
+        skos:narrower <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/611>,
+            <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/612> ;
+        skos:notation "610" ;
+        skos:prefLabel "Landwirtschaft-Gesamt"@de,
+            "Agriculture-Total"@en ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/420> a skos:Concept ;
@@ -521,6 +500,33 @@ In ÖROK monitoring, these areas are formed on the one hand by the area utilizat
         skos:notation "420" ;
         skos:prefLabel "Abbaufläche (Modul 42)"@de,
             "Mining area (module 42)"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/640> a skos:Concept ;
+        skos:broader <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/600> ;
+        skos:definition "Andere Freiflächen, die nicht vorrangig Landwirtschaft oder Wald sind"@de,
+            "Other open spaces that are not primarily agriculture or forest"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
+        skos:narrower <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/641>,
+            <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/642>,
+            <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/643> ;
+        skos:notation "640" ;
+        skos:prefLabel "Freifläche-Sonstige"@de,
+            "Open space-other"@en ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/600> a skos:Concept ;
+        skos:definition "Freiflächen, die nicht zur Flächeninanspruchnahme zählen"@de,
+            "Open spaces that do not count as land use"@en ;
+        skos:inScheme <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
+        skos:narrower <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/610>,
+            <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/620>,
+            <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/630>,
+            <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/640> ;
+        skos:notation "600" ;
+        skos:prefLabel "Freiflächen (Modul 60)"@de,
+            "Open spaces (module 60)"@en ;
+        skos:topConceptOf <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
     <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/100> a skos:Concept ;
@@ -623,24 +629,6 @@ Ski slopes are not included here, as they are also largely used for agricultural
         skos:notation "300" ;
         skos:prefLabel "Freizeit und Erholung (Modul 30)"@de,
             "Leisure and Recreation (Module 30)"@en ;
-        skos:topConceptOf <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
-        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
-
-    <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/600> a skos:Concept ;
-        skos:definition "Freiflächen, die nicht zur Flächeninanspruchnahme zählen"@de,
-            "Open spaces that do not count as land use"@en ;
-        skos:inScheme <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
-        skos:narrower <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/6100>,
-            <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/611>,
-            <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/612>,
-            <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/620>,
-            <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/630>,
-            <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/641>,
-            <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/642>,
-            <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme/643> ;
-        skos:notation "600" ;
-        skos:prefLabel "Freiflächen (Modul 60)"@de,
-            "Open spaces (module 60)"@en ;
         skos:topConceptOf <https://registry.inspire.gv.at/codelist/oerok-flaecheninanspruchnahme> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
