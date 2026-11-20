@@ -136,13 +136,28 @@
                     <img src="img/logo-text.png" alt="Registry logo" style="height:auto; max-height:120px;">
                 </div>
                 <div class="flex-grow-1 text-center">
-                    <p class="m-0 text-white">&copy; <span id="currentYear"></span> inspire.gv.at - Alle Rechte vorbehalten | <a href="https://www.inspire.gv.at/impressum.html" class="text-white">Impressum</a> | v1.2-3</p>
+                    <p class="m-0 text-white">&copy; <span id="currentYear"></span> inspire.gv.at - Alle Rechte vorbehalten | <a href="https://www.inspire.gv.at/impressum.html" class="text-white">Impressum</a> | <span id="latestVersion"></span></p>
                 </div>
             </div>
         </div>
     </footer>
     <script>
         document.getElementById("currentYear").textContent = new Date().getFullYear();
+
+        fetch("https://api.github.com/repos/Geosphere-Austria/registry/releases/latest")
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`GitHub release request failed: ${response.status}`);
+                }
+                return response.json();
+            })
+            .then(release => {
+                if (typeof release.tag_name !== "string") {
+                    throw new Error("GitHub release response is missing tag_name");
+                }
+                document.getElementById("latestVersion").textContent = release.tag_name;
+            })
+            .catch(error => console.error("Could not load the latest registry version:", error));
     </script>
 </body>
 
